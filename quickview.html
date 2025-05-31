@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALIKLI1992 Quick View</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #0ABAB5;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0ABAB5;
+            margin: 0;
+        }
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        @media (max-width: 600px) {
+            .options {
+                grid-template-columns: 1fr;
+            }
+        }
+        .option {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .option:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .option h3 {
+            color: #0ABAB5;
+            margin-top: 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0ABAB5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #089a96;
+        }
+        .preview {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .preview img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MALIKLI1992</h1>
+            <p>Exclusive Fashion Drops - Quick Launch Page</p>
+        </header>
+
+        <div class="options">
+            <div class="option">
+                <h3>View Website</h3>
+                <p>Open the MALIKLI1992 website directly</p>
+                <a href="index.html" class="btn">Open Website</a>
+            </div>
+            <div class="option">
+                <h3>Start Server</h3>
+                <p>Launch with full functionality</p>
+                <a href="START_SERVER.bat" class="btn">Start Server</a>
+            </div>            <div class="option">
+                <h3>Configure Database</h3>
+                <p>Setup your Supabase database</p>
+                <a href="database-setup.sql" class="btn">Database Script</a>
+            </div>
+            <div class="option">
+                <h3>Read Documentation</h3>
+                <p>View the complete documentation</p>
+                <a href="README.md" class="btn">Documentation</a>
+            </div>
+        </div>
+
+        <div class="preview">
+            <h2>Website Preview</h2>
+            <div>
+                <p>Here's what your website looks like:</p>
+                <img src="data:image/png;base64,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" alt="MALIKLI1992 Website Preview">
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 MALIKLI1992 - All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

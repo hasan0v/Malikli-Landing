@@ -1,0 +1,47 @@
+{
+  "name": "malikli1992-waiting-page",
+  "version": "1.0.0",
+  "description": "Premium waiting page for MALIKLI1992 exclusive fashion drops",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -c-1",
+    "dev": "npx live-server --port=3000 --no-browser",
+    "build": "echo 'No build process required for static site'",
+    "test": "echo 'No tests configured yet'",
+    "deploy": "vercel --prod",
+    "preview": "vercel"
+  },
+  "keywords": [
+    "fashion",
+    "luxury",
+    "waiting-page",
+    "supabase",
+    "responsive",
+    "countdown"
+  ],
+  "author": "MALIKLI1992",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "vercel": "^42.1.1"
+  },
+  "optionalDependencies": {
+    "vercel": "^33.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/malikli1992-waiting-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/malikli1992-waiting-page/issues"
+  },
+  "homepage": "https://malikli1992.com"
+}

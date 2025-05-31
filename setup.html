@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MALIKLI1992 - Setup Required</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #0ABAB5 0%, #2DD4CF 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .setup-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .step {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .step h3 {
+            margin-top: 0;
+            color: #D4AF37;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        }
+        .btn {
+            display: inline-block;
+            background: #D4AF37;
+            color: #2C3E50;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 10px;
+            transition: transform 0.2s ease;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .warning {
+            background: rgba(255, 193, 7, 0.2);
+            border: 1px solid rgba(255, 193, 7, 0.4);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="setup-container">
+        <h1>🚀 MALIKLI1992 Setup</h1>
+        <p>Welcome! Your waiting page is almost ready. Follow these steps to get started:</p>
+        
+        <div class="step">
+            <h3>1. Configure Supabase</h3>
+            <p>Edit <code>config.js</code> and replace:</p>
+            <ul>
+                <li><code>YOUR_SUPABASE_URL_HERE</code> with your Supabase project URL</li>
+                <li><code>YOUR_SUPABASE_ANON_KEY_HERE</code> with your Supabase anon key</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h3>2. Set Up Database</h3>
+            <p>Create these tables in your Supabase database:</p>
+            <ul>
+                <li><code>drops_drop</code> - for managing fashion drops</li>
+                <li><code>waitlist_subscribers</code> - for email signups</li>
+            </ul>
+            <p>Check the README.md for complete SQL scripts.</p>
+        </div>
+
+        <div class="step">
+            <h3>3. Add Sample Data</h3>
+            <p>Insert a test drop in your database to see the countdown timer in action.</p>
+        </div>
+
+        <div class="step">
+            <h3>4. Test & Deploy</h3>
+            <p>Once configured, delete this setup.html file and your main page will load automatically.</p>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Important:</strong> Delete this <code>setup.html</code> file after configuration to reveal your main waiting page.
+        </div>
+
+        <a href="README.md" class="btn">📖 Full Documentation</a>
+        <a href="index.html" class="btn">👀 Preview Main Page</a>
+    </div>
+
+    <script>
+        // Check if Supabase is configured
+        if (window.location.search.includes('check=true')) {
+            fetch('config.js')
+                .then(response => response.text())
+                .then(data => {
+                    if (!data.includes('YOUR_SUPABASE_URL_HERE')) {
+                        alert('✅ Supabase appears to be configured! You can now delete setup.html');
+                    } else {
+                        alert('❌ Please configure your Supabase credentials in config.js first');
+                    }
+                })
+                .catch(() => {
+                    alert('❌ Could not check configuration. Please ensure config.js exists.');
+                });
+        }
+    </script>
+</body>
+</html>
