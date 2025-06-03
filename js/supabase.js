@@ -167,7 +167,7 @@ class SupabaseClient {    constructor() {
             name: getFieldValue(dbDrop, ['title', 'name', 'product_name', 'drop_name'], 'Exclusive Drop'),
             description: getFieldValue(dbDrop, ['description', 'short_description', 'summary'], 'Limited edition luxury pieces'),
             banner_image: getFieldValue(dbDrop, ['banner_image_url', 'banner_image', 'image_url', 'image'], 'https://media.malikli1992.com/banners/default-banner.jpg'),
-            details: getFieldValue(dbDrop, ['collection_name', 'details', 'long_description'], 'Premium quality fashion drop'),
+            details: getFieldValue(dbDrop, ['collection_name', 'details', 'long_description']),
             start_datetime: getFieldValue(dbDrop, ['launch_date', 'start_datetime', 'start_date', 'release_date'], new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString()),
             end_datetime: getFieldValue(dbDrop, ['end_date', 'end_datetime', 'expiry_date'], new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString()),
             status: getFieldValue(dbDrop, ['status', 'state'], 'upcoming'),

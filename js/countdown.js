@@ -203,9 +203,15 @@ class CountdownTimer {
             .countdown-ended, .countdown-error {
                 text-align: center;
                 padding: 2rem;
-                background: rgba(10, 186, 181, 0.1);
+                background: #0abab5;
                 border-radius: 1rem;
                 color: #2C3E50;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                width: 25rem;
+                position: relative;
+                left: 30%;
             }
             .ended-indicator, .error-indicator {
                 font-size: 3rem;

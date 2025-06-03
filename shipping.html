@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shipping & Delivery - MALIKLI1992</title>
-    <meta name="description" content="Learn about shipping options, delivery times, and policies for MALIKLI1992 products.">
+    <title>International Shipping - MALIKLI1992</title>
+    <meta name="description" content="Calculate shipping costs and explore our international delivery options. Fast, reliable shipping to over 40 countries worldwide.">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,534 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <style>
+        /* Enhanced shipping page styles */        .shipping-hero {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            padding: 120px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 3px solid #0ABAB5;
+        }
+
+        .shipping-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            animation: gridMove 20s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(10px, 10px); }
+        }
+
+        .shipping-hero__content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .shipping-hero__title {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 20px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        .shipping-hero__subtitle {
+            font-size: 1.3rem;
+            color: #cccccc;
+            margin-bottom: 40px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease 0.2s forwards;
+        }
+
+        .shipping-hero__stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 50px;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease 0.4s forwards;
+        }
+
+        .stat-item {
+            text-align: center;
+        }        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #0ABAB5;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Shipping Calculator */
+        .shipping-calculator {
+            background: #fff;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            margin: -60px auto 80px;
+            max-width: 600px;
+            position: relative;
+            z-index: 10;
+            transform: translateY(20px);
+            opacity: 0;
+        }
+
+        .shipping-calculator.fade-in {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .calculator-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+        }
+
+        .calculator-form {
+            display: grid;
+            gap: 25px;
+        }
+
+        .form-group {
+            position: relative;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+            font-size: 0.95rem;
+        }
+
+        .form-input, .form-select {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e1e1e1;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: #fff;
+        }        .form-input:focus, .form-select:focus {
+            outline: none;
+            border-color: #0ABAB5;
+            box-shadow: 0 0 0 3px rgba(10, 186, 181, 0.1);
+        }        .calculate-btn {
+            background: linear-gradient(135deg, #0ABAB5 0%, #008B87 100%);
+            color: #fff;
+            border: none;
+            padding: 18px 40px;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(10, 186, 181, 0.3);
+        }
+
+        .calculate-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Shipping Results */
+        #shipping-results {
+            margin-top: 30px;
+            display: none;
+        }        .shipping-result {
+            background: linear-gradient(135deg, #f0fffe 0%, #e0f9f8 100%);
+            border-radius: 15px;
+            padding: 30px;
+            border-left: 5px solid #0ABAB5;
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .result-header h3 {
+            font-size: 1.4rem;
+            color: #1a1a1a;
+            margin: 0;
+        }        .result-cost {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #0ABAB5;
+        }
+
+        .result-details {
+            display: grid;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .detail-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+        }
+
+        .detail-label {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .detail-value {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+
+        .rate-breakdown {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .rate-breakdown h4 {
+            margin: 0 0 15px 0;
+            color: #1a1a1a;
+            font-size: 1.1rem;
+        }
+
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .breakdown-item:last-child {
+            border-bottom: none;
+        }
+
+        .shipping-error {
+            background: #ffe6e6;
+            border: 1px solid #ffcccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            color: #cc0000;
+        }
+
+        .error-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }        /* Popular Destinations */
+        .popular-destinations {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #f0fffe 0%, #e6fdfc 100%);
+        }
+
+        .popular-destinations__container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #1a1a1a;
+        }
+
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .destination-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            transform: translateY(0);
+            opacity: 0;
+        }
+
+        .destination-card.animate-in {
+            opacity: 1;
+            animation: slideInUp 0.6s ease forwards;
+        }
+
+        .destination-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+        }
+
+        @keyframes slideInUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .destination-flag {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .destination-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }        .destination-price {
+            font-size: 1.1rem;
+            color: #0ABAB5;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .destination-note {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Shipping Zones */
+        .shipping-zones {
+            padding: 80px 20px;
+            background: #fff;
+        }
+
+        .shipping-zones__container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .zones-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .shipping-zone {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            border-radius: 20px;
+            padding: 40px;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+            transform: translateY(30px);
+            opacity: 0;
+        }
+
+        .shipping-zone.animate-in {
+            animation: fadeInUp 0.8s ease forwards;
+        }        .shipping-zone::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(10, 186, 181, 0.1), transparent);
+            transform: rotate(45deg);
+            transition: all 0.6s ease;
+        }
+
+        .shipping-zone:hover::before {
+            animation: shimmer 1.5s ease-in-out;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }        .zone-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #0ABAB5;
+        }
+
+        .zone-countries {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .country-tag {
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .zone-info {
+            display: grid;
+            gap: 12px;
+        }
+
+        .zone-info-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .zone-info-item:last-child {
+            border-bottom: none;
+        }        /* FAQ Section */
+        .shipping-faq {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #f0fffe 0%, #e6fdfc 100%);
+        }
+
+        .shipping-faq__container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-list {
+            display: grid;
+            gap: 20px;
+        }
+
+        .faq-item {
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transform: translateY(20px);
+            opacity: 0;
+        }
+
+        .faq-item.animate-in {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .faq-question {
+            padding: 25px 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            margin: 0;
+        }
+
+        .faq-question:hover {
+            background: #f8f9fa;
+        }        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+            color: #0ABAB5;
+        }
+
+        .faq-item.active .faq-question::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            padding: 0 30px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 0 30px 25px;
+            max-height: 200px;
+        }
+
+        .faq-answer p {
+            color: #666;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .shipping-hero__title {
+                font-size: 2.5rem;
+            }
+            
+            .shipping-hero__stats {
+                flex-direction: column;
+                gap: 30px;
+            }
+            
+            .shipping-calculator {
+                margin: -40px 20px 60px;
+                padding: 30px 20px;
+            }
+            
+            .destinations-grid,
+            .zones-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .result-header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+        }
+
+        .fade-in {
+            opacity: 1;
+            animation: fadeInUp 0.8s ease forwards;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -26,7 +554,8 @@
                     <a href="index.html">
                         <img src="images/logo.png" alt="MALIKLI1992 Logo" class="logo-image">
                     </a>
-                </div>                <div class="nav__menu">
+                </div>
+                <div class="nav__menu">
                     <a href="about.html" class="nav__link">About</a>
                     <a href="contact.html" class="nav__link">Contact</a>
                 </div>
@@ -35,111 +564,244 @@
     </header>
 
     <!-- Shipping Hero Section -->
-    <section class="page-hero">
-        <div class="page-hero__container">
-            <h1 class="page-hero__title">Shipping & Delivery</h1>
-            <p class="page-hero__subtitle">Information about delivery options and timeframes</p>
+    <section class="shipping-hero">
+        <div class="shipping-hero__content">
+            <h1 class="shipping-hero__title">Worldwide Shipping</h1>
+            <p class="shipping-hero__subtitle">Fast, reliable delivery to over 40 countries with full tracking and insurance</p>
+            <div class="shipping-hero__stats">
+                <div class="stat-item">
+                    <span class="stat-number">40+</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">7-21</span>
+                    <span class="stat-label">Days Delivery</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Tracked</span>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Shipping Content -->
-    <section class="shipping-content">
-        <div class="shipping-content__container">
-            <div class="shipping-content__section">
-                <h2 class="section-title">Delivery Terms and Timeframes for Belarus</h2>
-                <div class="shipping-info">
-                    <h3 class="shipping-info__title">Delivery Methods</h3>
-                    <p>We offer several delivery options throughout the Republic of Belarus:</p>
-                    <ul class="shipping-list">
-                        <li><strong>Standard Postal Delivery (Belpost)</strong> - Available nationwide with an average delivery time of 2-5 business days. The shipping cost is calculated according to Belpost tariffs based on weight and destination.</li>
-                        <li><strong>Express Delivery</strong> - Available in major cities with delivery within 1-2 business days. Higher shipping rates apply for this premium service.</li>
-                        <li><strong>Store Pickup</strong> - Available in Minsk at our location on Vera Khoruzhey St., 6A. Orders are typically ready for pickup within 24 hours after confirmation.</li>
-                    </ul>
-                    
-                    <h3 class="shipping-info__title">Delivery Timeframes</h3>
-                    <p>Please note the following estimated delivery timeframes:</p>
-                    <ul class="shipping-list">
-                        <li><strong>Minsk</strong>: 1-3 business days</li>
-                        <li><strong>Regional Centers</strong>: 2-4 business days</li>
-                        <li><strong>Other Locations</strong>: 3-5 business days</li>
-                    </ul>
-                    <p>These timeframes are estimates and may vary depending on weather conditions, holidays, and other factors.</p>
-                    
-                    <h3 class="shipping-info__title">Shipping Costs</h3>
-                    <p>Shipping costs are calculated based on the following factors:</p>
-                    <ul class="shipping-list">
-                        <li>Delivery method selected</li>
-                        <li>Package weight and dimensions</li>
-                        <li>Delivery destination</li>
-                    </ul>
-                    <p>Free shipping is available for orders over 100 BYN within Belarus.</p>
-                    
-                    <h3 class="shipping-info__title">Order Tracking</h3>
-                    <p>Once your order has been shipped, you will receive a confirmation email with tracking information. You can use this tracking number on the Belpost website or contact our customer service team for assistance with tracking your package.</p>
+    <!-- Shipping Calculator -->
+    <section class="shipping-calculator">
+        <h2 class="calculator-title">Calculate Shipping Cost</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">Enter the number of products you want to order. Each product weighs approximately 400g.</p>
+        <div class="calculator-form">
+            <div class="form-group">
+                <label for="country-select" class="form-label">Destination Country</label>
+                <select id="country-select" class="form-select">
+                    <option value="">Select your country</option>
+                </select>
+            </div>            <div class="form-group">
+                <label for="product-count-input" class="form-label">Number of Products</label>
+                <input type="number" id="product-count-input" class="form-input" placeholder="Enter number of products" min="1" step="1">
+                <small style="color: #666; font-size: 0.85rem; margin-top: 5px; display: block;">Each product weighs approximately 400g</small>
+            </div>
+            <button id="calculate-btn" class="calculate-btn">Calculate Shipping</button>
+        </div>
+        <div id="shipping-results"></div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="popular-destinations">
+        <div class="popular-destinations__container">
+            <h2 class="section-title">Popular Destinations</h2>
+            <div class="destinations-grid">                <div class="destination-card" onclick="showQuickRate('United States')">
+                    <div class="destination-flag">🇺🇸</div>
+                    <div class="destination-name">United States</div>
+                    <div class="destination-price">$51.89 per product</div>
+                    <div class="destination-note">Click to calculate</div>
+                </div>
+                <div class="destination-card" onclick="showQuickRate('Germany')">
+                    <div class="destination-flag">🇩🇪</div>
+                    <div class="destination-name">Germany</div>
+                    <div class="destination-price">$32.54 per product</div>
+                    <div class="destination-note">Click to calculate</div>
+                </div>
+                <div class="destination-card" onclick="showQuickRate('United Kingdom')">
+                    <div class="destination-flag">🇬🇧</div>
+                    <div class="destination-name">United Kingdom</div>
+                    <div class="destination-price">$31.07 per product</div>
+                    <div class="destination-note">Click to calculate</div>
+                </div>
+                <div class="destination-card" onclick="showQuickRate('France')">
+                    <div class="destination-flag">🇫🇷</div>
+                    <div class="destination-name">France</div>
+                    <div class="destination-price">$19.93 per product</div>
+                    <div class="destination-note">Click to calculate</div>
+                </div>
+                <div class="destination-card" onclick="showQuickRate('Australia')">
+                    <div class="destination-flag">🇦🇺</div>
+                    <div class="destination-name">Australia</div>
+                    <div class="destination-price">$34.48 per product</div>
+                    <div class="destination-note">Click to calculate</div>
+                </div>
+                <div class="destination-card" onclick="showQuickRate('Japan')">
+                    <div class="destination-flag">🇯🇵</div>
+                    <div class="destination-name">Japan</div>
+                    <div class="destination-price">$31.04 per product</div>
+                    <div class="destination-note">Click to calculate</div>
                 </div>
             </div>
-            
-            <div class="shipping-content__section">
-                <h2 class="section-title">Frequently Asked Questions</h2>
-                <div class="faq-list">
-                    <div class="faq-item">
-                        <h4 class="faq-question">How long does delivery take?</h4>
-                        <div class="faq-answer">
-                            <p>Standard delivery typically takes 2-5 business days within Belarus. Express delivery options are available in major cities with delivery within 1-2 business days.</p>
+        </div>
+    </section>
+
+    <!-- Shipping Zones -->
+    <section class="shipping-zones">
+        <div class="shipping-zones__container">
+            <h2 class="section-title">Shipping Zones & Rates</h2>
+            <div class="zones-grid">
+                <div class="shipping-zone">
+                    <h3 class="zone-title">🇪🇺 European Union</h3>
+                    <div class="zone-countries">
+                        <span class="country-tag">Germany</span>
+                        <span class="country-tag">France</span>
+                        <span class="country-tag">Italy</span>
+                        <span class="country-tag">Spain</span>
+                        <span class="country-tag">Netherlands</span>
+                        <span class="country-tag">+15 more</span>
+                    </div>
+                    <div class="zone-info">
+                        <div class="zone-info-item">
+                            <span>Starting from:</span>
+                            <span>$16.40</span>
+                        </div>
+                        <div class="zone-info-item">
+                            <span>Delivery time:</span>
+                            <span>7-14 days</span>
+                        </div>
+                        <div class="zone-info-item">
+                            <span>Tracking:</span>
+                            <span>Full tracking</span>
                         </div>
                     </div>
-                    
-                    <div class="faq-item">
-                        <h4 class="faq-question">Can I change the delivery address after placing an order?</h4>
-                        <div class="faq-answer">
-                            <p>Yes, you can change the delivery address within 24 hours of placing your order. Please contact our customer support team immediately with your order number and the new delivery address. After the 24-hour period, we cannot guarantee that the address change will be processed as your order may have already been prepared for shipping.</p>
+                </div>
+
+                <div class="shipping-zone">
+                    <h3 class="zone-title">🌍 Americas</h3>
+                    <div class="zone-countries">
+                        <span class="country-tag">United States</span>
+                        <span class="country-tag">Canada</span>
+                        <span class="country-tag">Brazil</span>
+                        <span class="country-tag">Mexico</span>
+                        <span class="country-tag">Argentina</span>
+                    </div>
+                    <div class="zone-info">
+                        <div class="zone-info-item">
+                            <span>Starting from:</span>
+                            <span>$21.89</span>
+                        </div>
+                        <div class="zone-info-item">
+                            <span>Delivery time:</span>
+                            <span>10-21 days</span>
+                        </div>
+                        <div class="zone-info-item">
+                            <span>Tracking:</span>
+                            <span>Full tracking</span>
                         </div>
                     </div>
-                    
-                    <div class="faq-item">
-                        <h4 class="faq-question">How can I track my order?</h4>
-                        <div class="faq-answer">
-                            <p>Once your order has been shipped, you will receive a confirmation email with a tracking number. You can use this tracking number on the Belpost website or contact our customer service team for assistance with tracking your package.</p>
+                </div>
+
+                <div class="shipping-zone">
+                    <h3 class="zone-title">🌏 Asia Pacific</h3>
+                    <div class="zone-countries">
+                        <span class="country-tag">Japan</span>
+                        <span class="country-tag">Singapore</span>
+                        <span class="country-tag">Australia</span>
+                        <span class="country-tag">Hong Kong</span>
+                        <span class="country-tag">India</span>
+                    </div>
+                    <div class="zone-info">
+                        <div class="zone-info-item">
+                            <span>Starting from:</span>
+                            <span>$13.90</span>
+                        </div>
+                        <div class="zone-info-item">
+                            <span>Delivery time:</span>
+                            <span>7-18 days</span>
+                        </div>
+                        <div class="zone-info-item">
+                            <span>Tracking:</span>
+                            <span>Full tracking</span>
                         </div>
                     </div>
-                    
-                    <div class="faq-item">
-                        <h4 class="faq-question">What should I do if my package is lost or damaged?</h4>
-                        <div class="faq-answer">
-                            <p>If your package is lost or damaged during transit, please contact our customer support team within 48 hours of the expected delivery date. Provide your order number and details of the issue, and we will promptly investigate and resolve the issue with the carrier.</p>
-                        </div>
+                </div>
+
+                <div class="shipping-zone">
+                    <h3 class="zone-title">🕌 Middle East</h3>
+                    <div class="zone-countries">
+                        <span class="country-tag">UAE</span>
+                        <span class="country-tag">Saudi Arabia</span>
+                        <span class="country-tag">Qatar</span>
+                        <span class="country-tag">Kuwait</span>
+                        <span class="country-tag">Bahrain</span>
                     </div>
-                    
-                    <div class="faq-item">
-                        <h4 class="faq-question">Do you offer international shipping?</h4>
-                        <div class="faq-answer">
-                            <p>Currently, we only offer shipping within Belarus. We are working to expand our shipping options to include international destinations in the near future. Please subscribe to our newsletter to be notified when international shipping becomes available.</p>
+                    <div class="zone-info">
+                        <div class="zone-info-item">
+                            <span>Starting from:</span>
+                            <span>$23.29</span>
                         </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <h4 class="faq-question">Is there a minimum order value for free shipping?</h4>
-                        <div class="faq-answer">
-                            <p>Yes, we offer free shipping on all orders over 100 BYN within Belarus. Orders below this amount will have shipping costs calculated based on weight, dimensions, and delivery destination.</p>
+                        <div class="zone-info-item">
+                            <span>Delivery time:</span>
+                            <span>7-14 days</span>
                         </div>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <h4 class="faq-question">What happens if I'm not available to receive my delivery?</h4>
-                        <div class="faq-answer">
-                            <p>If you're not available to receive your delivery, the courier will leave a notification card with instructions on how to collect your package or arrange redelivery. Most packages can be held at the local post office for up to 14 days before being returned to us.</p>
+                        <div class="zone-info-item">
+                            <span>Tracking:</span>
+                            <span>Full tracking</span>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="shipping-content__section">
-                <h2 class="section-title">Need More Assistance?</h2>
-                <p>If you have any other questions about shipping or delivery, please don't hesitate to contact our customer support team:</p>
-                <div class="contact-options">
-                    <a href="mailto:melikliemin7@gmail.com" class="btn btn--secondary">Email Us</a>
-                    <a href="tel:+375445371787" class="btn btn--secondary">Call Us</a>
-                    <a href="contact.html" class="btn btn--primary">Contact Page</a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="shipping-faq">
+        <div class="shipping-faq__container">
+            <h2 class="section-title">Shipping FAQ</h2>
+            <div class="faq-list">                <div class="faq-item">
+                    <h4 class="faq-question">How is shipping cost calculated?</h4>
+                    <div class="faq-answer">
+                        <p>Shipping costs are calculated based on the number of products and destination country. Each product weighs approximately 400g. We offer transparent pricing: 1 product ships for the base rate, 2-3 products at the 1kg rate, with additional charges for larger orders.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h4 class="faq-question">Do you provide tracking information?</h4>
+                    <div class="faq-answer">
+                        <p>Yes, all shipments include full tracking from dispatch to delivery. You'll receive a tracking number via email once your order is shipped, allowing you to monitor your package's progress.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h4 class="faq-question">What are the delivery timeframes?</h4>
+                    <div class="faq-answer">
+                        <p>Delivery times vary by destination: European Union (7-14 days), Americas (10-21 days), Asia Pacific (7-18 days), and Middle East (7-14 days). Times may vary during peak seasons or due to customs processing.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h4 class="faq-question">Are there any customs duties or taxes?</h4>
+                    <div class="faq-answer">
+                        <p>Customs duties and taxes may apply depending on your country's regulations and the value of your order. These fees are the responsibility of the recipient and are not included in our shipping costs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h4 class="faq-question">What if my package is damaged or lost?</h4>
+                    <div class="faq-answer">
+                        <p>All packages are insured. If your order arrives damaged or goes missing, please contact us within 48 hours with photos (for damaged items) or tracking information. We'll file a claim and arrange a replacement or refund.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <h4 class="faq-question">Can I change my shipping address after ordering?</h4>
+                    <div class="faq-answer">
+                        <p>Address changes are possible within 24 hours of placing your order, before it's dispatched. Please contact our customer service immediately with your order number and new address details.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -153,9 +815,7 @@
                     <h3>MALIKLI1992</h3>
                     <p>Exclusive fashion for the discerning individual.</p>
                     <div class="footer__contact">
-                        <p><a href="tel:+375445371787">+375 44 537 1787</a></p>
-                        <p><a href="mailto:melikliemin7@gmail.com">melikliemin7@gmail.com</a></p>
-                        <p>Working hours: 24/7</p>
+                        <p><a href="mailto:e.malikli1992@gmail.com">e.malikli1992@gmail.com</a></p>
                     </div>
                 </div>
                 
@@ -163,7 +823,8 @@
                     <div class="footer__column">
                         <h4>Customer Support</h4>
                         <ul class="footer__links">
-                            <li><a href="shipping.html">Shipping Information</a></li>                            <li><a href="returns.html">Returns & Exchanges</a></li>
+                            <li><a href="shipping.html">Shipping Information</a></li>
+                            <li><a href="returns.html">Returns & Exchanges</a></li>
                             <li><a href="payment.html">Payment Methods</a></li>
                         </ul>
                     </div>
@@ -203,14 +864,10 @@
                     <p>&copy; 2025 MALIKLI1992 LLC. All rights reserved.</p>
                     <p>Limited Liability Company "MALIKLI1992"</p>
                     <p>Manufacturer: MALIKLI1992 LLC</p>
-                    <p>State Registration Certificate №193863901, issued 21.04.2025 by Minsk City Executive Committee</p>
-                    <p>220005, Minsk, Vera Khoruzhey St., 6A, office 94I</p>
-                    <p>Registered in the trade register</p>
                 </div>
                 <div class="footer__payment">
                     <img src="images/visa-logo.png" alt="Visa" class="payment-icon">
                     <img src="images/mastercard-logo.png" alt="Mastercard" class="payment-icon">
-                    <img src="images/belkart-logo.png" alt="Belkart" class="payment-icon">
                 </div>
             </div>
         </div>
@@ -218,5 +875,49 @@
 
     <!-- Scripts -->
     <script src="js/animations.js"></script>
+    <script src="js/shipping-calculator.js"></script>
+    
+    <script>
+        // FAQ Toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+
+        // Enhanced scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('animate-in');
+                    }, index * 100);
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.destination-card, .shipping-zone, .faq-item').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
 </body>
 </html>
