@@ -1,0 +1,661 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "MALIKLI1992",
+    "subtitle": "Únete a nuestra unida comunidad de entusiastas de la moda y sé el primero en saber cuándo se lanzan nuestras colecciones exclusivas. Forma parte de la familia MALIKLI1992 para disfrutar de acceso anticipado y precios especiales para miembros.",
+    "cta": "Únete a la Lista de Espera"
+  },
+  "comingSoon": {
+    "title": "Algo Increíble está por Llegar",
+    "subtitle": "Estamos creando una experiencia extraordinaria para ti. ¡Mantente atento a la gran revelación!"
+  },
+  "features": {
+    "title": "¿Por Qué Elegir MALIKLI1992?",
+    "description": "Nuestras colecciones exclusivas presentan piezas premium seleccionadas a mano para el individuo exigente. Cada artículo se selecciona cuidadosamente para garantizar la más alta calidad y un diseño único.",
+    "exclusive": {
+      "title": "Acceso Anticipado",
+      "description": "Los miembros de la lista de espera obtienen acceso prioritario a las nuevas colecciones"
+    },
+    "premium": {
+      "title": "Calidad Premium",
+      "description": "Materiales de alta calidad y artesanía excepcional"
+    },
+    "limited": {
+      "title": "Edición Limitada",
+      "description": "Piezas exclusivas con cantidades limitadas disponibles"
+    }
+  },
+  "countdown": {
+    "title": "Oferta por Tiempo Limitado",
+    "subtitle": "No te pierdas nuestra colección exclusiva",
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos"
+  },
+  "waitlist": {
+    "title": "Únete a Nuestra Lista de Espera Exclusiva",
+    "subtitle": "Sé el primero en saber cuándo se lanza nuestra colección y obtén acceso anticipado a piezas de edición limitada.",
+    "form": {
+      "name": "Nombre Completo",
+      "email": "Dirección de Correo Electrónico",
+      "submit": "Unirse a la Lista de Espera",
+      "submitting": "Uniéndose...",
+      "namePlaceholder": "Nombre (Opcional)",
+      "emailPlaceholder": "Dirección de Correo Electrónico",
+      "termsText": "Acepto recibir actualizaciones por correo electrónico y acepto los",
+      "termsLink": "Términos y Política de Privacidad"
+    },
+    "success": {
+      "title": "¡Gracias por unirte!",
+      "subtitle": "Te notificaremos cuando la colección esté disponible."
+    },
+    "benefits": {
+      "title": "Beneficios de la Lista de Espera",
+      "early": {
+        "title": "Acceso Anticipado",
+        "description": "Obtén acceso exclusivo a nuevas colecciones antes de que estén disponibles para el público"
+      },
+      "special": {
+        "title": "Precios Especiales",
+        "description": "Disfruta de descuentos exclusivos para miembros y ofertas especiales en artículos premium"
+      },
+      "updates": {
+        "title": "Últimas Actualizaciones",
+        "description": "Mantente informado sobre nuevos lanzamientos, tendencias de moda y noticias de la marca"
+      }
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "MALIKLI1992",
+      "tagline": "Moda exclusiva para el individuo exigente."
+    },
+    "support": {
+      "title": "Atención al Cliente",
+      "shipping": "Información de Envío",
+      "returns": "Devoluciones y Cambios",
+      "payment": "Métodos de Pago"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Acerca de Nosotros",
+      "contact": "Contacto",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones"
+    },
+    "social": {
+      "title": "Síguenos"
+    },
+    "bottom": {
+      "copyright": "© 2025 MALIKLI1992 LLC. Todos los derechos reservados.",
+      "company": "Sociedad de Responsabilidad Limitada \"MALIKLI1992\"",
+      "manufacturer": "Fabricante: MALIKLI1992 LLC"
+    }
+  },
+  "meta": {
+    "title": "MALIKLI1992 - Colección de Moda Exclusiva",
+    "description": "Descubre la colección de moda exclusiva de MALIKLI1992. Ropa de calidad premium para el individuo exigente. Únete a nuestra lista de espera para obtener acceso anticipado a piezas de edición limitada."
+  },
+  "language": {
+    "select": "Idioma",
+    "english": "Inglés"
+  },
+  "returns": {
+    "meta": {
+      "title": "Devoluciones y Cambios - MALIKLI1992",
+      "description": "Conoce nuestra política de devoluciones y cambios para productos MALIKLI1992, incluyendo información y condiciones de garantía."
+    },
+    "hero": {
+      "title": "Devoluciones y Cambios",
+      "subtitle": "Nuestra política para devoluciones de productos, cambios e información de garantía"
+    },
+    "content": {
+      "mainTitle": "Garantía, Cambios y Devoluciones",
+      "overview": {
+        "title": "Resumen de la Política de Devoluciones",
+        "description1": "Puedes devolver productos de calidad adecuada si se conservan su apariencia, etiquetas de fábrica, rótulos y propiedades de consumo, y tienes un documento que confirme la compra. Los productos que han sido utilizados no pueden ser devueltos.",
+        "description2": "Según el Artículo 28 de la Ley de la República de Bielorrusia del 9 de enero de 2002, \"Sobre la Protección del Consumidor\" (en adelante, la Ley), que regula la devolución y el cambio de productos de calidad adecuada, el consumidor tiene derecho a devolver un producto de calidad adecuada o cambiarlo por un producto similar en un plazo de catorce días."
+      },
+      "conditions": {
+        "title": "Condiciones de Devolución",
+        "intro": "Para que se acepte una devolución, se deben cumplir las siguientes condiciones:",
+        "list": [
+          "El producto debe estar en su estado original con todas las etiquetas y rótulos intactos",
+          "El embalaje original debe estar intacto y completo",
+          "Debes proporcionar un comprobante de compra (recibo o confirmación de pedido)",
+          "El producto no debe mostrar signos de uso o desgaste",
+          "La devolución debe iniciarse dentro de los 14 días posteriores a la recepción del pedido"
+        ]
+      },
+      "howTo": {
+        "title": "Cómo Devolver",
+        "intro": "Para iniciar una devolución o cambio, sigue estos pasos:",
+        "steps": [
+          "Contacta a nuestro equipo de atención al cliente por correo electrónico o teléfono dentro del período de devolución de 14 días",
+          "Proporciona tu número de pedido y detalles sobre los artículos que deseas devolver",
+          "Nuestro equipo te proporcionará una autorización de devolución e instrucciones",
+          "Empaqueta los artículos de forma segura en su embalaje original",
+          "Envía el paquete a la dirección proporcionada por nuestro equipo de atención al cliente"
+        ],
+        "conclusion": "Una vez que recibamos e inspeccionemos los artículos devueltos, procesaremos tu reembolso o cambio en un plazo de 5 a 7 días hábiles."
+      },
+      "exchanges": {
+        "title": "Cambios",
+        "description": "Si deseas cambiar un artículo por una talla o color diferente, sigue el mismo procedimiento que para las devoluciones. Ten en cuenta que los cambios están sujetos a disponibilidad. Si el reemplazo deseado no está disponible, emitiremos un reembolso por el artículo devuelto."
+      },
+      "refunds": {
+        "title": "Reembolsos",
+        "description": "Los reembolsos se procesarán utilizando el método de pago original. Por favor, permite de 5 a 7 días hábiles para que el reembolso aparezca en tu cuenta después de que hayamos procesado tu devolución. Ten en cuenta que los costos de envío no son reembolsables a menos que la devolución se deba a un error nuestro."
+      },
+      "defectiveItems": {
+        "title": "Artículos Defectuosos",
+        "intro": "Si recibes un artículo defectuoso, contacta a nuestro equipo de atención al cliente de inmediato. Para productos defectuosos, ofrecemos:",
+        "list": [
+          "Reembolso completo incluyendo los costos de envío",
+          "Cambio por el mismo artículo",
+          "Crédito en tienda"
+        ],
+        "conclusion": "Por favor, proporciona fotos del artículo defectuoso al contactar a nuestro equipo de atención al cliente para ayudarnos a resolver el problema rápidamente."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "questions": [
+        {
+          "question": "¿Cuánto tiempo tengo para devolver un artículo?",
+          "answer": "Tienes 14 días desde la fecha de recepción de tu pedido para iniciar una devolución o cambio."
+        },
+        {
+          "question": "¿Puedo devolver un producto si lo he usado o le he quitado las etiquetas?",
+          "answer": "No, los productos deben estar en su estado original, sin usar y con todas las etiquetas y rótulos intactos para ser elegibles para devolución o cambio."
+        },
+        {
+          "question": "¿Tengo que pagar el envío de la devolución?",
+          "answer": "Sí, los clientes son responsables de los costos de envío de la devolución a menos que la devolución se deba a un error de nuestra parte o a un producto defectuoso."
+        },
+        {
+          "question": "¿Cuánto tiempo tardará en procesarse mi reembolso?",
+          "answer": "Una vez que recibamos e inspeccionemos tu devolución, procesaremos tu reembolso en un plazo de 5 a 7 días hábiles. Puede tomar unos días adicionales para que el reembolso aparezca en tu cuenta, dependiendo de tu proveedor de pagos."
+        },
+        {
+          "question": "¿Qué pasa si el artículo que quiero cambiar está agotado?",
+          "answer": "Si el artículo por el que deseas cambiar no está disponible, emitiremos un reembolso por el artículo devuelto o te ofreceremos un producto alternativo de igual valor."
+        },
+        {
+          "question": "¿Puedo devolver artículos de edición limitada o en oferta?",
+          "answer": "Sí, los artículos de edición limitada y en oferta siguen la misma política de devoluciones que los artículos regulares, siempre que cumplan todas las condiciones para las devoluciones (sin usar, etiquetas intactas, dentro de los 14 días)."
+        }
+      ]
+    },
+    "assistance": {
+      "title": "¿Necesitas Más Ayuda?",
+      "description": "Si tienes alguna otra pregunta sobre devoluciones, cambios o nuestra política de garantía, no dudes en contactar a nuestro equipo de atención al cliente:",
+      "emailButton": "Envíanos un Correo Electrónico",
+      "contactButton": "Página de Contacto"
+    }
+  },
+  "payment": {
+    "meta": {
+      "title": "Métodos de Pago - MALIKLI1992",
+      "description": "Conoce los métodos de pago disponibles para los productos MALIKLI1992, incluyendo opciones de tarjeta de crédito y otra información de pago."
+    },
+    "hero": {
+      "title": "Métodos de Pago",
+      "subtitle": "Información sobre las opciones de pago disponibles para tus pedidos"
+    },
+    "content": {
+      "title": "Métodos de Pago Disponibles",
+      "cards": {
+        "title": "Tarjetas de Crédito y Débito",
+        "description": "Puedes pagar tu pedido utilizando tarjetas bancarias de los siguientes sistemas de pago:",
+        "visa": {
+          "title": "Visa",
+          "description": "Se aceptan todas las tarjetas de débito y crédito Visa"
+        },
+        "mastercard": {
+          "title": "Mastercard",
+          "description": "Se aceptan todas las tarjetas de débito y crédito Mastercard"
+        }
+      },
+      "security": {
+        "title": "Seguridad de Pago",
+        "description": "Todos los pagos se procesan de forma segura utilizando encriptación SSL. Los detalles de tu tarjeta nunca se almacenan en nuestros servidores, garantizando la máxima seguridad para tu información financiera."
+      },
+      "charging": {
+        "title": "¿Cuándo se me Cobrará?",
+        "description": "Se te cobrará en tu tarjeta inmediatamente después de completar tu compra. El cargo aparecerá en tu extracto como \"MALIKLI1992\"."
+      },
+      "otherMethods": {
+        "title": "Otros Métodos de Pago",
+        "description": "Actualmente, no hay otros métodos de pago disponibles. Si tienes preguntas o solicitudes especiales sobre el pago, contacta a nuestro equipo de atención al cliente."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "questions": {
+        "safety": {
+          "question": "¿Es seguro usar mi tarjeta de crédito en su sitio web?",
+          "answer": "Sí, todos los pagos en nuestro sitio web se procesan utilizando encriptación SSL segura. Los detalles de tu tarjeta están protegidos y nunca se almacenan en nuestros servidores."
+        },
+        "international": {
+          "question": "¿Aceptan tarjetas de crédito internacionales?",
+          "answer": "Sí, aceptamos Visa y Mastercard emitidas por bancos de todo el mundo. Ten en cuenta que las transacciones internacionales pueden estar sujetas a tarifas de conversión de moneda por parte de tu banco."
+        },
+        "whenCharged": {
+          "question": "¿Cuándo se cargará mi tarjeta?",
+          "answer": "Tu tarjeta se cargará inmediatamente cuando completes tu compra. La transacción aparecerá como \"MALIKLI1992\" en tu extracto."
+        },
+        "digitalWallets": {
+          "question": "¿Puedo pagar con PayPal u otras billeteras digitales?",
+          "answer": "Actualmente, solo aceptamos pagos mediante Visa y Mastercard. Estamos trabajando para agregar más métodos de pago en el futuro."
+        },
+        "declined": {
+          "question": "¿Qué debo hacer si mi pago es rechazado?",
+          "answer": "Si tu pago es rechazado, verifica que los detalles de tu tarjeta se hayan ingresado correctamente. Si el problema persiste, contacta a tu banco para asegurarte de que no haya restricciones en tu tarjeta para compras en línea. También puedes comunicarte con nuestro equipo de atención al cliente para obtener ayuda."
+        }
+      }
+    },
+    "assistance": {
+      "title": "¿Necesitas Más Ayuda?",
+      "description": "Si tienes alguna otra pregunta sobre los métodos de pago o experimentas algún problema con tu transacción, no dudes en contactar a nuestro equipo de atención al cliente:",
+      "buttons": {
+        "email": "Envíanos un Correo Electrónico",
+        "contact": "Página de Contacto"
+      }
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Acerca de Nosotros - MALIKLI1992",
+      "description": "Conoce más sobre MALIKLI1992, nuestra historia, visión y compromiso con los lanzamientos de moda exclusivos y piezas premium."
+    },
+    "hero": {
+      "title": "Acerca de MALIKLI1992",
+      "subtitle": "Redefiniendo el estilo con lanzamientos exclusivos y artesanía premium"
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "paragraph1": "MALIKLI1992 nació de una pasión por la autoexpresión auténtica a través de la moda. Establecida por el emprendedor visionario Emin Malikli, nuestra marca representa la fusión perfecta de herencia cultural y estilo contemporáneo.",
+      "paragraph2": "Lo que nos distingue es nuestro compromiso con el modelo de \"drop\" (lanzamiento): colecciones meticulosamente seleccionadas lanzadas en cantidades limitadas en momentos programados. Cada lanzamiento es más que solo ropa; es una declaración artística que encarna nuestra dedicación a la calidad, la innovación y la singularidad.",
+      "paragraph3": "Cada pieza de nuestra colección cuenta una historia de artesanía y visión creativa, diseñada para aquellos que aprecian lo extraordinario en su estilo cotidiano."
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "paragraph1": "En MALIKLI1992, nuestra misión es crear una comunidad vibrante de entusiastas de la moda que valoren la exclusividad, la autenticidad y la calidad excepcional. Creemos en el poder de las piezas de edición limitada que se destacan de la moda producida en masa, creando conexiones significativas entre nuestras creaciones y quienes las visten.",
+      "paragraph2": "A través de nuestro enfoque único de la moda, nuestro objetivo es redefinir la relación entre las marcas y los consumidores, haciendo de cada compra un evento para recordar y celebrar."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "paragraph1": "Visualizamos a MALIKLI1992 como un líder global en lanzamientos de moda exclusivos, estableciendo nuevos estándares de creatividad e innovación en la industria. Nuestro objetivo es construir una comunidad mundial unida por la apreciación de piezas de edición limitada cuidadosamente diseñadas que trascienden las tendencias estacionales.",
+      "paragraph2": "En esta visión, la moda se convierte en algo más que solo ropa: es una forma de expresión personal, una declaración de individualidad y una celebración del arte que resuena con quienes visten nuestras piezas."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "exclusivity": {
+        "title": "Exclusividad",
+        "description": "Creamos productos en cantidades limitadas, asegurando que cada pieza mantenga su valor único y un lugar especial en tu colección."
+      },
+      "quality": {
+        "title": "Calidad",
+        "description": "Desde la selección de telas hasta la costura final, nunca comprometemos los materiales, la artesanía ni la atención al detalle."
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Constantemente superamos los límites en diseño, tecnología y sostenibilidad para aportar nuevas perspectivas a la moda."
+      },
+      "community": {
+        "title": "Comunidad",
+        "description": "Fomentamos una comunidad apasionada de entusiastas del estilo que comparten nuestra apreciación por la moda única y la expresión creativa."
+      }
+    },
+    "join": {
+      "title": "Únete a Nuestro Movimiento",
+      "description": "Forma parte de la comunidad MALIKLI1992 uniéndote a nuestra lista de espera exclusiva. Sé el primero en enterarte de los próximos lanzamientos, ediciones especiales y obtén acceso anticipado a nuestras piezas más codiciadas.",
+      "cta": "Únete a la Lista de Espera"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contáctanos - MALIKLI1992",
+      "description": "Ponte en contacto con MALIKLI1992 para consultas sobre nuestros lanzamientos de moda exclusivos, colaboraciones o atención al cliente."
+    },
+    "hero": {
+      "title": "Contáctanos",
+      "subtitle": "Estamos aquí para ayudarte"
+    },
+    "info": {
+      "email": {
+        "title": "Dirección de Correo Electrónico",
+        "address": "e.malikli1992@gmail.com"
+      },
+      "social": {
+        "title": "Síguenos",
+        "instagram": "Instagram",
+        "tiktok": "TikTok"
+      }
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "fields": {
+        "name": {
+          "label": "Tu Nombre",
+          "placeholder": "Ingresa tu nombre"
+        },
+        "email": {
+          "label": "Tu Correo Electrónico",
+          "placeholder": "Ingresa tu correo electrónico"
+        },
+        "subject": {
+          "label": "Asunto",
+          "placeholder": "Ingresa el asunto"
+        },
+        "message": {
+          "label": "Mensaje",
+          "placeholder": "Escribe tu mensaje aquí..."
+        },
+        "privacy": "Acepto la Política de Privacidad y consiento el tratamiento de mis datos."
+      },
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando..."
+    },
+    "success": {
+      "icon": "✉️",
+      "title": "¡Gracias!",
+      "message": "Tu mensaje ha sido enviado. Nos pondremos en contacto contigo lo antes posible.",
+      "sendAnother": "Enviar Otro Mensaje"
+    },
+    "error": {
+      "icon": "❌",
+      "title": "¡Ups!",
+      "message": "Algo salió mal al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.",
+      "tryAgain": "Intentar de Nuevo"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de Privacidad - MALIKLI1992",
+      "description": "Conoce cómo MALIKLI1992 procesa y protege tus datos personales de acuerdo con las leyes de la República de Bielorrusia."
+    },
+    "hero": {
+      "title": "Política de Privacidad",
+      "subtitle": "Cómo procesamos y protegemos tus datos personales"
+    },
+    "effectiveDate": "Fecha de Entrada en Vigor: 12 de mayo de 2025",
+    "sections": {
+      "general": {
+        "title": "1. Disposiciones Generales",
+        "content": "Esta Política de Privacidad define el procedimiento para el tratamiento y protección de los datos personales de los usuarios proporcionados al utilizar el sitio web de MALIKLI1992 (en adelante, el \"Sitio Web\")."
+      },
+      "legal": {
+        "title": "2. Base Legal",
+        "content": "El tratamiento de datos personales se realiza de conformidad con la Ley de la República de Bielorrusia del 15 de noviembre de 2021, \"Sobre la Protección de Datos Personales\" y otras normativas de la República de Bielorrusia."
+      },
+      "personalData": {
+        "title": "3. Datos Personales",
+        "description": "Podemos recopilar los siguientes datos personales:",
+        "list": [
+          "Nombre completo",
+          "Información de contacto (dirección de correo electrónico, número de teléfono)",
+          "Dirección de entrega",
+          "Detalles de pago",
+          "Otros datos proporcionados voluntariamente por el usuario"
+        ]
+      },
+      "purposes": {
+        "title": "4. Fines del Tratamiento de Datos",
+        "description": "Los datos personales se procesan con el fin de:",
+        "list": [
+          "Procesar pedidos y prestar servicios",
+          "Comunicación con los usuarios",
+          "Envío de materiales informativos y promocionales (con consentimiento)",
+          "Mejorar la calidad del servicio"
+        ]
+      },
+      "consent": {
+        "title": "5. Consentimiento para el Tratamiento de Datos",
+        "content": "El usuario da su consentimiento para el tratamiento de sus datos personales al registrarse en el Sitio Web o realizar un pedido, marcando la casilla correspondiente."
+      },
+      "storage": {
+        "title": "6. Almacenamiento y Protección de Datos",
+        "content": "Tomamos todas las medidas organizativas y técnicas necesarias para proteger los datos personales contra el acceso no autorizado, alteración, divulgación o destrucción."
+      },
+      "rights": {
+        "title": "7. Derechos del Usuario",
+        "description": "El usuario tiene derecho a:",
+        "list": [
+          "Recibir información sobre sus datos personales",
+          "Solicitar cambios o la eliminación de sus datos",
+          "Retirar el consentimiento para el tratamiento de datos",
+          "Presentar quejas ante los organismos autorizados"
+        ]
+      },
+      "transfer": {
+        "title": "8. Transferencia de Datos a Terceros",
+        "content": "Los datos personales pueden ser transferidos a terceros solo en los casos previstos por la legislación de la República de Bielorrusia o con el consentimiento del usuario."
+      },
+      "changes": {
+        "title": "9. Cambios en la Política de Privacidad",
+        "content": "Nos reservamos el derecho de realizar cambios en esta Política de Privacidad. Los cambios entran en vigor desde el momento de su publicación en el Sitio Web."
+      },
+      "contact": {
+        "title": "10. Información de Contacto",
+        "content": "Si tienes preguntas sobre el tratamiento de tus datos personales, puedes contactarnos en:",
+        "email": "e.malikli1992@gmail.com"
+      }
+    },
+    "assistance": {
+      "title": "¿Necesitas Más Ayuda?",
+      "description": "Si tienes alguna pregunta sobre nuestra Política de Privacidad o cómo manejamos tus datos, no dudes en contactarnos:",
+      "buttons": {
+        "email": "Envíanos un Correo Electrónico",
+        "contact": "Página de Contacto"
+      }
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Términos y Condiciones - MALIKLI1992",
+      "description": "Términos y condiciones de uso del sitio web y productos de MALIKLI1992. Conoce nuestras políticas y acuerdos de usuario."
+    },
+    "hero": {
+      "title": "Términos y Condiciones",
+      "subtitle": "Términos de uso del sitio web y servicios de MALIKLI1992"
+    },
+    "dates": {
+      "effective": "Fecha de Entrada en Vigor: 26 de mayo de 2025",
+      "lastUpdated": "Última Actualización: 26 de mayo de 2025"
+    },
+    "sections": {
+      "agreement": {
+        "title": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar el sitio web y los servicios de MALIKLI1992, aceptas regirte por estos Términos y Condiciones y todas las leyes y regulaciones aplicables. Si no estás de acuerdo con alguno de estos términos, se te prohíbe usar o acceder a este sitio."
+      },
+      "company": {
+        "title": "2. Información de la Empresa",
+        "content": "Estos términos se celebran entre tú y la Sociedad de Responsabilidad Limitada \"MALIKLI1992\" (en adelante, \"Empresa\", \"nosotros\", \"nos\" o \"nuestro\").",
+        "details": {
+          "name": "Nombre de la Empresa: Sociedad de Responsabilidad Limitada \"MALIKLI1992\"",
+          "contact": "Contacto: e.malikli1992@gmail.com"
+        }
+      },
+      "license": {
+        "title": "3. Licencia de Uso",
+        "description": "Se concede permiso para descargar temporalmente una copia de los materiales en el sitio web de MALIKLI1992 solo para visualización transitoria personal y no comercial. Esta es la concesión de una licencia, no una transferencia de título, y bajo esta licencia no puedes:",
+        "restrictions": [
+          "Modificar o copiar los materiales",
+          "Usar los materiales para cualquier propósito comercial o para cualquier exhibición pública",
+          "Intentar realizar ingeniería inversa de cualquier software contenido en el sitio web",
+          "Eliminar cualquier derecho de autor u otras anotaciones de propiedad de los materiales"
+        ],
+        "termination": "Esta licencia terminará automáticamente si violas alguna de estas restricciones y podrá ser terminada por MALIKLI1992 en cualquier momento."
+      },
+      "products": {
+        "title": "4. Información de Productos y Pedidos",
+        "description": "Nos esforzamos por proporcionar descripciones precisas de productos, precios e información de disponibilidad. Sin embargo, no garantizamos que las descripciones de productos u otro contenido sean precisos, completos, confiables o libres de errores.",
+        "terms": [
+          "Todos los pedidos están sujetos a aceptación y disponibilidad",
+          "Nos reservamos el derecho de rechazar o cancelar cualquier pedido",
+          "Los precios están sujetos a cambios sin previo aviso",
+          "Las imágenes de los productos son para fines ilustrativos y pueden variar de los productos reales"
+        ]
+      },
+      "payment": {
+        "title": "5. Términos de Pago",
+        "description": "El pago debe realizarse en el momento de la compra utilizando uno de nuestros métodos de pago aceptados (Visa, Mastercard). Al proporcionar información de pago, declaras que estás autorizado a utilizar el método de pago.",
+        "terms": [
+          "Todos los pagos se procesan de forma segura",
+          "Nos reservamos el derecho de verificar la información de pago",
+          "Pueden aplicarse tarifas de conversión de moneda para transacciones internacionales",
+          "Las disputas de pago deben dirigirse a nuestro equipo de atención al cliente"
+        ]
+      },
+      "shipping": {
+        "title": "6. Envío y Entrega",
+        "description": "Los términos de envío se detallan en nuestra página de Información de Envío. Los tiempos de entrega son estimados y no están garantizados. El riesgo de pérdida y el título de los artículos pasan a ti al momento de la entrega al transportista."
+      },
+      "returns": {
+        "title": "7. Devoluciones y Cambios",
+        "description": "Nuestra política de devoluciones y cambios se rige por la ley de protección al consumidor de Bielorrusia, específicamente el Artículo 28 de la Ley \"Sobre los Derechos de Protección al Consumidor\". Los detalles completos están disponibles en nuestra página de Devoluciones y Cambios."
+      },
+      "disclaimer": {
+        "title": "8. Descargo de Responsabilidad",
+        "content": "Los materiales en el sitio web de MALIKLI1992 se proporcionan 'tal cual'. MALIKLI1992 no ofrece garantías, expresas o implícitas, y por la presente renuncia y niega todas las demás garantías, incluidas, entre otras, las garantías implícitas o condiciones de comerciabilidad, idoneidad para un propósito particular o no infracción de la propiedad intelectual u otra violación de derechos."
+      },
+      "limitations": {
+        "title": "9. Limitaciones",
+        "content": "En ningún caso MALIKLI1992 o sus proveedores serán responsables de ningún daño (incluidos, entre otros, daños por pérdida de datos o ganancias, o debido a interrupción del negocio) que surja del uso o la incapacidad de usar los materiales en el sitio web de MALIKLI1992, incluso si MALIKLI1992 o un representante autorizado de MALIKLI1992 ha sido notificado oralmente o por escrito de la posibilidad de dicho daño. Debido a que algunas jurisdicciones no permiten limitaciones en las garantías implícitas, o limitaciones de responsabilidad por daños consecuentes o incidentales, estas limitaciones pueden no aplicarse a ti."
+      },
+      "accuracy": {
+        "title": "10. Exactitud de los Materiales",
+        "content": "Los materiales que aparecen en el sitio web de MALIKLI1992 podrían incluir errores técnicos, tipográficos o fotográficos. MALIKLI1992 no garantiza que ninguno de los materiales en su sitio web sea preciso, completo o actual. MALIKLI1992 puede realizar cambios en los materiales contenidos en su sitio web en cualquier momento sin previo aviso."
+      },
+      "links": {
+        "title": "11. Enlaces",
+        "content": "MALIKLI1992 no ha revisado todos los sitios vinculados a nuestro sitio web y no es responsable del contenido de ningún sitio vinculado. La inclusión de cualquier enlace no implica la aprobación por parte de MALIKLI1992 del sitio. El uso de cualquier sitio web vinculado es bajo el propio riesgo del usuario."
+      },
+      "modifications": {
+        "title": "12. Modificaciones",
+        "content": "MALIKLI1992 puede revisar estos términos de servicio en cualquier momento sin previo aviso. Al utilizar este sitio web, aceptas regirte por la versión vigente en ese momento de estos términos de servicio."
+      },
+      "governing": {
+        "title": "13. Ley Aplicable",
+        "content": "Estos términos y condiciones se rigen e interpretan de acuerdo con las leyes de la República de Bielorrusia. Cualquier disputa que surja de estos términos estará sujeta a la jurisdicción exclusiva de los tribunales de Bielorrusia."
+      },
+      "privacy": {
+        "title": "14. Política de Privacidad",
+        "content": "Tu privacidad es importante para nosotros. Revisa nuestra Política de Privacidad, que también rige tu uso del sitio web, para comprender nuestras prácticas."
+      },
+      "contact": {
+        "title": "15. Información de Contacto",
+        "description": "Si tienes alguna pregunta sobre estos Términos y Condiciones, contáctanos:",
+        "details": {
+          "email": "Correo electrónico: e.malikli1992@gmail.com",
+          "address": "Dirección: 220005, Minsk, Calle Vera Khoruzhey, 6A, oficina 94I"
+        }
+      }
+    }
+  },
+  "shipping": {
+    "meta": {
+      "title": "Envío Internacional - MALIKLI1992",
+      "description": "Explora nuestras opciones de entrega internacional. Envío rápido y confiable a más de 140 países en todo el mundo con tiempos de entrega detallados."
+    },
+    "hero": {
+      "title": "Envío a Todo el Mundo",
+      "subtitle": "Entrega rápida y confiable a más de 140 países con opciones de servicio completas",
+      "stats": {
+        "countries": "Países",
+        "delivery": "Días de Entrega",
+        "tracked": "Con Seguimiento"
+      }
+    },
+    "globalReach": {
+      "title": "Nuestro Alcance Global",
+      "subtitle": "Enviamos con orgullo a más de 140 países en todo el mundo, llevando la moda exclusiva de MALIKLI1992 a clientes exigentes en todo el globo."
+    },
+    "services": {
+      "domestic": {
+        "title": "Envío Nacional (Bielorrusia)",
+        "time": "1-3 días hábiles para entregas locales"
+      },
+      "international": {
+        "title": "Envío Internacional",
+        "time": "5-21 días dependiendo del destino"
+      },
+      "express": {
+        "title": "Servicios Express",
+        "time": "5-15 días hábiles"
+      },
+      "standard": {
+        "title": "Servicios Estándar",
+        "time": "1-4 semanas"
+      }
+    },
+    "deliveryTimes": {
+      "title": "Tiempos de Entrega por Servicio"
+    },
+    "ems": {
+      "title": "EMS Internacional (Servicio de Correo Express)"
+    },
+    "parcels": {
+      "title": "Paquetes Internacionales",
+      "priority": "Paquetes Prioritarios",
+      "nonPriority": "Paquetes No Prioritarios"
+    },
+    "deliveryTime": "Tiempo de entrega:",
+    "tracking": "Seguimiento:",
+    "fullTracking": "Seguimiento completo",
+    "note": "Nota:",
+    "neighboringCountry": "País vecino",
+    "factors": {
+      "title": "Factores que Afectan los Tiempos de Entrega",
+      "delays": {
+        "title": "Posibles Retrasos",
+        "customs": "Procesamiento de despacho de aduanas",
+        "remote": "Áreas de destino remotas",
+        "holidays": "Días festivos nacionales",
+        "weather": "Condiciones climáticas",
+        "peak": "Temporadas altas de envío"
+      },
+      "faster": {
+        "title": "Entrega Más Rápida a"
+      },
+      "longer": {
+        "title": "Entrega Más Larga a",
+        "remote": "Áreas remotas: 20-35 días"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes sobre Envíos",
+      "services": {
+        "question": "¿Qué servicios de envío ofrecen?",
+        "answer": "Ofrecemos múltiples opciones de envío, incluyendo EMS Internacional (Servicio de Correo Express), Paquetes Internacionales Prioritarios y No Prioritarios. La entrega nacional dentro de Bielorrusia toma de 1 a 3 días hábiles, mientras que el envío internacional varía de 5 a 21 días dependiendo del destino y el tipo de servicio."
+      },
+      "tracking": {
+        "question": "¿Proporcionan información de seguimiento?",
+        "answer": "Sí, todos los envíos incluyen seguimiento completo desde el despacho hasta la entrega. Recibirás un número de seguimiento por correo electrónico una vez que tu pedido sea enviado, lo que te permitirá monitorear el progreso de tu paquete durante todo su viaje."
+      },
+      "timeframes": {
+        "question": "¿Cuáles son los plazos de entrega?",
+        "answer": "Los tiempos de entrega varían según el destino y el servicio: EMS a Europa (5-10 días), América del Norte (7-14 días), Asia (5-12 días), Australia (8-15 días) y Rusia (3-7 días). Los paquetes estándar tardan más, variando de 7 a 28 días dependiendo del nivel de prioridad y el destino."
+      },
+      "customs": {
+        "question": "¿Hay aranceles o impuestos de aduana?",
+        "answer": "Pueden aplicarse aranceles e impuestos de aduana dependiendo de las regulaciones de tu país y el valor de tu pedido. Estas tarifas son responsabilidad del destinatario y no están incluidas en nuestros costos de envío. El procesamiento a través de la aduana también puede afectar los tiempos de entrega."
+      },
+      "delays": {
+        "question": "¿Qué factores pueden afectar los tiempos de entrega?",
+        "answer": "Varios factores pueden afectar los tiempos de entrega, incluyendo el despacho de aduanas, destinos remotos, días festivos nacionales, condiciones climáticas y temporadas altas de envío. Recomendamos permitir tiempo extra durante los períodos festivos y para entregas a áreas remotas."
+      },
+      "coverage": {
+        "question": "¿A qué países realizan envíos?",
+        "answer": "Enviamos a más de 140 países en todo el mundo. Los países vecinos como Rusia suelen recibir una entrega más rápida (3-7 días), mientras que las ubicaciones más distantes pueden tardar entre 20 y 35 días para áreas remotas. Contáctanos si no estás seguro sobre la entrega a tu ubicación específica."
+      }
+    }
+  }
+}

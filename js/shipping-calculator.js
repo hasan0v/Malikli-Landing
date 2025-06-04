@@ -241,7 +241,7 @@ function displayResults(country, productCount, totalWeight, cost, rates) {
                 </div>
                 <div class="detail-item">
                     <span class="detail-label">Estimated Delivery:</span>
-                    <span class="detail-value">7-21 business days</span>
+                    <span class="detail-value">5-21 business days</span>
                 </div>
                 <div class="detail-item">
                     <span class="detail-label">Tracking:</span>

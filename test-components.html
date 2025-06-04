@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Test Page - MALIKLI1992</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Preloader -->
+    <script src="js/component-preloader.js"></script>
+    <style>
+        .test-section {
+            padding: 2rem;
+            margin: 2rem;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .test-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .test-button:hover {
+            background: #0056b3;
+        }
+        .log-output {
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Test Content -->
+    <main class="container">
+        <div class="test-section">
+            <h1>Component Loading Test Page</h1>
+            <p>This page is designed to test the header and footer loading system. Use the buttons below to test various scenarios.</p>
+            
+            <h2>Test Controls</h2>
+            <button class="test-button" onclick="testCheckStatus()">Check Component Status</button>
+            <button class="test-button" onclick="testForceReload()">Force Reload Components</button>
+            <button class="test-button" onclick="testClearComponents()">Clear Components</button>
+            <button class="test-button" onclick="testNavigateBack()">Test Navigation</button>
+            <button class="test-button" onclick="testNetworkConnectivity()">Test Network</button>
+            <button class="test-button" onclick="clearLog()">Clear Log</button>
+            
+            <h2>Live Component Status</h2>
+            <div id="status-display">Loading...</div>
+            
+            <h2>Console Log</h2>
+            <div id="log-output" class="log-output">Console output will appear here...</div>
+            
+            <h2>Instructions</h2>
+            <ol>
+                <li>Open browser developer tools (F12) to see additional console output</li>
+                <li>Use the "Check Component Status" button to see current status</li>
+                <li>Use "Clear Components" then "Force Reload" to test the recovery mechanism</li>
+                <li>Navigate to other pages and back to test consistency</li>
+                <li>If header disappears, use the debugging tools to investigate</li>
+            </ol>
+            
+            <h2>Navigation Test Links</h2>
+            <p>Click these links to test navigation and header persistence:</p>
+            <a href="index.html" class="test-button">Home</a>
+            <a href="about.html" class="test-button">About</a>
+            <a href="contact.html" class="test-button">Contact</a>
+            <a href="shipping.html" class="test-button">Shipping</a>
+        </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="js/media-config.js"></script>
+    <script src="js/i18n-config.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/debug-components.js"></script>
+    
+    <script>
+        // Capture console output and display it
+        const originalLog = console.log;
+        const originalWarn = console.warn;
+        const originalError = console.error;
+        
+        function addToLog(type, message) {
+            const logOutput = document.getElementById('log-output');
+            const timestamp = new Date().toISOString().split('T')[1].split('.')[0];
+            const logEntry = document.createElement('div');
+            logEntry.textContent = `[${timestamp}] ${type}: ${message}`;
+            logEntry.style.color = type === 'ERROR' ? 'red' : type === 'WARN' ? 'orange' : 'black';
+            logOutput.appendChild(logEntry);
+            logOutput.scrollTop = logOutput.scrollHeight;
+        }
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            addToLog('LOG', args.join(' '));
+        };
+        
+        console.warn = function(...args) {
+            originalWarn.apply(console, args);
+            addToLog('WARN', args.join(' '));
+        };
+        
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            addToLog('ERROR', args.join(' '));
+        };
+        
+        // Test functions
+        function testCheckStatus() {
+            if (window.MALIKLI?.debugger) {
+                const status = window.MALIKLI.debugger.checkStatus();
+                updateStatusDisplay(status);
+            } else {
+                console.log('Debugger not available, checking manually...');
+                const header = document.getElementById('header-placeholder');
+                const footer = document.getElementById('footer-placeholder');
+                const status = {
+                    headerOK: !!header?.querySelector('*'),
+                    footerOK: !!footer?.querySelector('*'),
+                    state: window.MALIKLI?.componentsState || 'Not available'
+                };
+                updateStatusDisplay(status);
+            }
+        }
+        
+        function testForceReload() {
+            if (window.MALIKLI?.debugger) {
+                window.MALIKLI.debugger.forceReload();
+            } else if (window.MALIKLI?.components?.forceReload) {
+                window.MALIKLI.components.forceReload();
+            } else {
+                console.log('Force reload not available');
+            }
+        }
+        
+        function testClearComponents() {
+            const header = document.getElementById('header-placeholder');
+            const footer = document.getElementById('footer-placeholder');
+            
+            if (header) header.innerHTML = '';
+            if (footer) footer.innerHTML = '';
+            
+            if (window.MALIKLI?.componentsState) {
+                window.MALIKLI.componentsState.headerLoaded = false;
+                window.MALIKLI.componentsState.footerLoaded = false;
+            }
+            
+            console.log('Components cleared');
+            testCheckStatus();
+        }
+        
+        function testNavigateBack() {
+            // Store current page reference, navigate away, then back
+            const currentUrl = window.location.href;
+            window.history.pushState({}, '', 'about.html');
+            setTimeout(() => {
+                window.history.pushState({}, '', currentUrl);
+                console.log('Navigation test completed');
+                testCheckStatus();
+            }, 1000);
+        }
+        
+        function testNetworkConnectivity() {
+            if (window.MALIKLI?.debugger) {
+                window.MALIKLI.debugger.testNetwork();
+            } else {
+                console.log('Network test not available');
+            }
+        }
+        
+        function clearLog() {
+            document.getElementById('log-output').innerHTML = '';
+        }
+        
+        function updateStatusDisplay(status) {
+            const display = document.getElementById('status-display');
+            display.innerHTML = `
+                <strong>Header:</strong> ${status.headerOK ? '✅ OK' : '❌ Missing'}<br>
+                <strong>Footer:</strong> ${status.footerOK ? '✅ OK' : '❌ Missing'}<br>
+                <strong>State:</strong> ${JSON.stringify(status.state, null, 2)}
+            `;
+        }
+        
+        // Auto-update status every 5 seconds
+        setInterval(testCheckStatus, 5000);
+        
+        // Initial status check after page load
+        window.addEventListener('load', () => {
+            setTimeout(testCheckStatus, 1000);
+        });
+    </script>
+</body>
+</html>

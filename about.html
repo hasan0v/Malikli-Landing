@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-i18n-locale="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - MALIKLI1992</title>
-    <meta name="description" content="Learn more about MALIKLI1992, our story, vision, and commitment to exclusive fashion drops and premium pieces.">
+    <title data-i18n="about.meta.title">About Us - MALIKLI1992</title>
+    <meta name="description" data-i18n="about.meta.description" content="Learn more about MALIKLI1992, our story, vision, and commitment to exclusive fashion drops and premium pieces.">
+    
+    <!-- Component Preloader - Ensures components load correctly -->
+    <script src="js/component-preloader.js"></script>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,150 +21,137 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav__container">
-                <div class="nav__logo">
-                    <a href="index.html">
-                        <img src="images/logo.png" alt="MALIKLI1992 Logo" class="logo-image">
-                    </a>
-                </div>                <div class="nav__menu">
-                    <a href="about.html" class="nav__link active">About</a>
-                    <a href="contact.html" class="nav__link">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
 
     <!-- About Hero Section -->
     <section class="page-hero">
         <div class="page-hero__container">
-            <h1 class="page-hero__title">About MALIKLI1992</h1>
-            <p class="page-hero__subtitle">Redefining style with exclusive drops and premium craftsmanship</p>
+            <h1 class="page-hero__title" data-i18n="about.hero.title">About MALIKLI1992</h1>
+            <p class="page-hero__subtitle" data-i18n="about.hero.subtitle">Redefining style with exclusive drops and premium craftsmanship</p>
         </div>
-    </section>
-
-    <!-- About Content -->
+    </section>    <!-- About Content -->
     <section class="about-content">
         <div class="about-content__container">
-            <div class="about-content__section">
-                <h2 class="section-title">Our Story</h2>
-                <p>MALIKLI1992 was born from a passion for authentic self-expression through fashion. Established by visionary entrepreneur Emin Malikli, our brand represents the perfect fusion of cultural heritage and contemporary style.</p>
-                <p>What sets us apart is our commitment to the drop model — meticulously curated collections released in limited quantities at scheduled times. Each drop is more than just clothing; it's an artistic statement that embodies our dedication to quality, innovation, and uniqueness.</p>
-                <p>Every piece in our collection tells a story of craftsmanship and creative vision, designed for those who appreciate the extraordinary in their everyday style.</p>
+            <div class="about-content__section story-section">
+                <div class="content-grid">
+                    <div class="content-text">
+                        <h2 class="section-title" data-i18n="about.story.title">Our Story</h2>
+                        <p data-i18n="about.story.paragraph1">MALIKLI1992 was born from a passion for authentic self-expression through fashion. Established by visionary entrepreneur Emin Malikli, our brand represents the perfect fusion of cultural heritage and contemporary style.</p>
+                        <p data-i18n="about.story.paragraph2">What sets us apart is our commitment to the drop model — meticulously curated collections released in limited quantities at scheduled times. Each drop is more than just clothing; it's an artistic statement that embodies our dedication to quality, innovation, and uniqueness.</p>
+                        <p data-i18n="about.story.paragraph3">Every piece in our collection tells a story of craftsmanship and creative vision, designed for those who appreciate the extraordinary in their everyday style.</p>
+                    </div>
+                    <!-- <div class="content-visual">
+                        <div class="story-highlight">
+                            <div class="highlight-number">2024</div>
+                            <div class="highlight-text">Founded with Vision</div>
+                        </div>
+                    </div> -->
+                </div>
             </div>
             
-            <div class="about-content__section">
-                <h2 class="section-title">Our Mission</h2>
-                <p>At MALIKLI1992, our mission is to create a vibrant community of fashion enthusiasts who value exclusivity, authenticity, and exceptional quality. We believe in the power of limited-edition pieces that stand out from mass-produced fashion, creating meaningful connections between our creations and those who wear them.</p>
-                <p>Through our unique approach to fashion, we aim to redefine the relationship between brands and consumers, making each purchase an event to remember and celebrate.</p>
-            </div>
+            <div class="about-content__section mission-vision-grid">
+                <div class="mission-vision-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title" data-i18n="about.mission.title">Our Mission</h2>
+                    <p data-i18n="about.mission.paragraph1">At MALIKLI1992, our mission is to create a vibrant community of fashion enthusiasts who value exclusivity, authenticity, and exceptional quality. We believe in the power of limited-edition pieces that stand out from mass-produced fashion, creating meaningful connections between our creations and those who wear them.</p>
+                    <p data-i18n="about.mission.paragraph2">Through our unique approach to fashion, we aim to redefine the relationship between brands and consumers, making each purchase an event to remember and celebrate.</p>
+                </div>
 
-            <div class="about-content__section">
-                <h2 class="section-title">Our Vision</h2>
-                <p>We envision MALIKLI1992 as a global leader in exclusive fashion drops, setting new standards for creativity and innovation in the industry. Our goal is to build a worldwide community united by appreciation for thoughtfully designed, limited-edition pieces that transcend seasonal trends.</p>
-                <p>In this vision, fashion becomes more than just clothing—it's a form of personal expression, a statement of individuality, and a celebration of artistry that resonates with those who wear our pieces.</p>
-            </div>
-            
-            <div class="about-content__section">
-                <h2 class="section-title">Our Values</h2>
-                <ul class="values-list">
-                    <li>
-                        <strong>Exclusivity</strong>
-                        <p>We create products in limited quantities, ensuring each piece maintains its unique value and special place in your collection.</p>
-                    </li>
-                    <li>
-                        <strong>Quality</strong>
-                        <p>From fabric selection to final stitching, we never compromise on materials, craftsmanship, or attention to detail.</p>
-                    </li>
-                    <li>
-                        <strong>Innovation</strong>
-                        <p>We constantly push boundaries in design, technology, and sustainability to bring fresh perspectives to fashion.</p>
-                    </li>
-                    <li>
-                        <strong>Community</strong>
-                        <p>We nurture a passionate community of style enthusiasts who share our appreciation for unique fashion and creative expression.</p>
-                    </li>
-                </ul>
-            </div>
-            
-            <div class="about-content__section">
-                <h2 class="section-title">Join Our Movement</h2>
-                <p>Become part of the MALIKLI1992 community by joining our exclusive waitlist. Be the first to know about upcoming drops, special releases, and gain early access to our most coveted pieces.</p>
-                <div class="about-cta">
-                    <a href="index.html#waitlist" class="btn btn--primary">Join the Waitlist</a>
+                <div class="mission-vision-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 12S5 4 12 4S23 12 23 12S19 20 12 20S1 12 1 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h2 class="section-title" data-i18n="about.vision.title">Our Vision</h2>
+                    <p data-i18n="about.vision.paragraph1">We envision MALIKLI1992 as a global leader in exclusive fashion drops, setting new standards for creativity and innovation in the industry. Our goal is to build a worldwide community united by appreciation for thoughtfully designed, limited-edition pieces that transcend seasonal trends.</p>
+                    <p data-i18n="about.vision.paragraph2">In this vision, fashion becomes more than just clothing—it's a form of personal expression, a statement of individuality, and a celebration of artistry that resonates with those who wear our pieces.</p>
                 </div>
             </div>
-        </div>
-    </section>    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <h3>MALIKLI1992</h3>
-                    <p>Exclusive fashion for the discerning individual.</p>                    <div class="footer__contact">
-                        <p><a href="mailto:e.malikli1992@gmail.com">e.malikli1992@gmail.com</a></p>
+              <div class="about-content__section values-section">
+                <h2 class="section-title" data-i18n="about.values.title">Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-title" data-i18n="about.values.exclusivity.title">Exclusivity</h3>
+                        <p class="value-description" data-i18n="about.values.exclusivity.description">We create products in limited quantities, ensuring each piece maintains its unique value and special place in your collection.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-title" data-i18n="about.values.quality.title">Quality</h3>
+                        <p class="value-description" data-i18n="about.values.quality.description">From fabric selection to final stitching, we never compromise on materials, craftsmanship, or attention to detail.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.663 17H4.5C3.11929 17 2 15.8807 2 14.5C2 13.1193 3.11929 12 4.5 12H9.663M14.337 17H19.5C20.8807 17 22 15.8807 22 14.5C22 13.1193 20.8807 12 19.5 12H14.337M9.663 17C9.663 17 10.5 13.5 12 13.5C13.5 13.5 14.337 17 14.337 17M9.663 17C9.663 17 10.5 20.5 12 20.5C13.5 20.5 14.337 17 14.337 17M12 2V4M12 7V9M18.364 5.636L16.95 7.05M7.05 16.95L5.636 18.364" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-title" data-i18n="about.values.innovation.title">Innovation</h3>
+                        <p class="value-description" data-i18n="about.values.innovation.description">We constantly push boundaries in design, technology, and sustainability to bring fresh perspectives to fashion.</p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M13 7C13 9.20914 11.2091 11 9 11C6.79086 11 5 9.20914 5 7C5 4.79086 6.79086 3 9 3C11.2091 3 13 4.79086 13 7ZM23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75608 18.1676 9.45768C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="value-title" data-i18n="about.values.community.title">Community</h3>
+                        <p class="value-description" data-i18n="about.values.community.description">We nurture a passionate community of style enthusiasts who share our appreciation for unique fashion and creative expression.</p>
                     </div>
                 </div>
-                
-                <div class="footer__nav">
-                    <div class="footer__column">
-                        <h4>Customer Support</h4>
-                        <ul class="footer__links">
-                            <li><a href="shipping.html">Shipping Information</a></li>
-                            <li><a href="returns.html">Returns & Exchanges</a></li>
-                            <li><a href="payment.html">Payment Methods</a></li>
-                        </ul>
+            </div>
+              <div class="about-content__section join-section">
+                <div class="join-container">
+                    <div class="join-content">
+                        <h2 class="section-title" data-i18n="about.join.title">Join Our Movement</h2>
+                        <p class="join-description" data-i18n="about.join.description">Become part of the MALIKLI1992 community by joining our exclusive waitlist. Be the first to know about upcoming drops, special releases, and gain early access to our most coveted pieces.</p>
+                        <div class="about-cta">
+                            <a href="index.html#waitlist" class="btn btn--primary" data-i18n="about.join.cta">Join the Waitlist</a>
+                        </div>
                     </div>
-                    
-                    <div class="footer__column">
-                        <h4>Company</h4>
-                        <ul class="footer__links">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__column">
-                        <h4>Follow Us</h4>
-                        <div class="social-links">
-                            <a href="https://www.instagram.com/malikli1992/" target="_blank" class="social-link" aria-label="Instagram">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" stroke="currentColor" stroke-width="2"/>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
-                                </svg>
-                            </a>
-                            <a href="https://www.tiktok.com/@malikli1992" target="_blank" class="social-link" aria-label="TikTok">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9 12A4 4 0 1 0 13 16V6.5C14.5 7.5 16.5 8 19 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
+                    <div class="join-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Community Members</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Exclusive Drops</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Satisfaction Rate</div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="footer__bottom">
-                <div class="footer__info">
-                    <p>&copy; 2025 MALIKLI1992 LLC. All rights reserved.</p>
-                    <p>Limited Liability Company "MALIKLI1992"</p>
-                    <p>Manufacturer: MALIKLI1992 LLC</p>
-                    
-                </div>
-                <div class="footer__payment">
-                    <img src="images/visa-logo.png" alt="Visa" class="payment-icon">
-                    <img src="images/mastercard-logo.png" alt="Mastercard" class="payment-icon">
-                    
-                </div>
-            </div>
         </div>
-    </footer>
+    </section>
 
-    <!-- Scripts -->
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>    <!-- Scripts -->
+    <script src="js/i18n-config.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/components.js"></script>
     <script src="js/animations.js"></script>
 </body>
 </html>
+               

@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - MALIKLI1992</title>
-    <meta name="description" content="Learn about how MALIKLI1992 processes and protects your personal data in accordance with the laws of the Republic of Belarus.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title data-i18n="privacy.meta.title">Privacy Policy - MALIKLI1992</title>
+    <meta name="description" data-i18n="privacy.meta.description" content="Learn about how MALIKLI1992 processes and protects your personal data in accordance with the laws of the Republic of Belarus.">
+    
+    <!-- Component Preloader - Ensures components load correctly -->
+    <script src="js/component-preloader.js"></script>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,27 +20,12 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav__container">
-                <div class="nav__logo">
-                    <a href="index.html">
-                        <img src="images/logo.png" alt="MALIKLI1992 Logo" class="logo-image">
-                    </a>
-                </div>                <div class="nav__menu">
-                    <a href="about.html" class="nav__link">About</a>
-                    <a href="contact.html" class="nav__link">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Privacy Policy Hero Section -->
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>    <!-- Privacy Policy Hero Section -->
     <section class="page-hero">
         <div class="page-hero__container">
-            <h1 class="page-hero__title">Privacy Policy</h1>
-            <p class="page-hero__subtitle">How we process and protect your personal data</p>
+            <h1 class="page-hero__title" data-i18n="privacy.hero.title">Privacy Policy</h1>
+            <p class="page-hero__subtitle" data-i18n="privacy.hero.subtitle">How we process and protect your personal data</p>
         </div>
     </section>
 
@@ -46,160 +33,89 @@
     <section class="privacy-content">
         <div class="privacy-content__container">
             <div class="privacy-content__section">
-                <div class="privacy-info">
-                    <div class="privacy-meta">
-                        <p class="privacy-date">Effective Date: May 12, 2025</p>
+                <div class="privacy-info">                    <div class="privacy-meta">
+                        <p class="privacy-date" data-i18n="privacy.effectiveDate">Effective Date: May 12, 2025</p>
+                    </div>
+                      <div class="privacy-section">
+                        <h2 class="privacy-title" data-i18n="privacy.sections.general.title">1. General Provisions</h2>
+                        <p data-i18n="privacy.sections.general.content">This Privacy Policy defines the procedure for processing and protecting personal data of users provided when using the MALIKLI1992 website (hereinafter referred to as the "Website").</p>
                     </div>
                     
                     <div class="privacy-section">
-                        <h2 class="privacy-title">1. General Provisions</h2>
-                        <p>This Privacy Policy defines the procedure for processing and protecting personal data of users provided when using the MALIKLI1992 website (hereinafter referred to as the "Website").</p>
+                        <h2 class="privacy-title" data-i18n="privacy.sections.legal.title">2. Legal Basis</h2>
+                        <p data-i18n="privacy.sections.legal.content">Personal data processing is carried out in accordance with the Law of the Republic of Belarus dated November 15, 2021, "On Personal Data Protection" and other regulatory acts of the Republic of Belarus.</p>
                     </div>
-                    
-                    <div class="privacy-section">
-                        <h2 class="privacy-title">2. Legal Basis</h2>
-                        <p>Personal data processing is carried out in accordance with the Law of the Republic of Belarus dated November 15, 2021, "On Personal Data Protection" and other regulatory acts of the Republic of Belarus.</p>
-                    </div>
-                    
-                    <div class="privacy-section">
-                        <h2 class="privacy-title">3. Personal Data</h2>
-                        <p>We may collect the following personal data:</p>
+                      <div class="privacy-section">
+                        <h2 class="privacy-title" data-i18n="privacy.sections.personalData.title">3. Personal Data</h2>
+                        <p data-i18n="privacy.sections.personalData.description">We may collect the following personal data:</p>
                         <ul class="privacy-list">
-                            <li>Full name</li>
-                            <li>Contact information (email address, phone number)</li>
-                            <li>Delivery address</li>
-                            <li>Payment details</li>
-                            <li>Other data provided by the user voluntarily</li>
+                            <li data-i18n="privacy.sections.personalData.list.0">Full name</li>
+                            <li data-i18n="privacy.sections.personalData.list.1">Contact information (email address, phone number)</li>
+                            <li data-i18n="privacy.sections.personalData.list.2">Delivery address</li>
+                            <li data-i18n="privacy.sections.personalData.list.3">Payment details</li>
+                            <li data-i18n="privacy.sections.personalData.list.4">Other data provided by the user voluntarily</li>
                         </ul>
                     </div>
-                    
-                    <div class="privacy-section">
-                        <h2 class="privacy-title">4. Data Processing Purposes</h2>
-                        <p>Personal data is processed for the purpose of:</p>
+                      <div class="privacy-section">
+                        <h2 class="privacy-title" data-i18n="privacy.sections.purposes.title">4. Data Processing Purposes</h2>
+                        <p data-i18n="privacy.sections.purposes.description">Personal data is processed for the purpose of:</p>
                         <ul class="privacy-list">
-                            <li>Processing orders and providing services</li>
-                            <li>Communication with users</li>
-                            <li>Sending informational and promotional materials (with consent)</li>
-                            <li>Improving service quality</li>
+                            <li data-i18n="privacy.sections.purposes.list.0">Processing orders and providing services</li>
+                            <li data-i18n="privacy.sections.purposes.list.1">Communication with users</li>
+                            <li data-i18n="privacy.sections.purposes.list.2">Sending informational and promotional materials (with consent)</li>
+                            <li data-i18n="privacy.sections.purposes.list.3">Improving service quality</li>
                         </ul>
                     </div>
-                    
-                    <div class="privacy-section">
-                        <h2 class="privacy-title">5. Consent to Data Processing</h2>
-                        <p>The user gives consent to the processing of their personal data when registering on the Website or placing an order, by checking the appropriate box.</p>
+                      <div class="privacy-section">
+                        <h2 class="privacy-title" data-i18n="privacy.sections.consent.title">5. Consent to Data Processing</h2>
+                        <p data-i18n="privacy.sections.consent.content">The user gives consent to the processing of their personal data when registering on the Website or placing an order, by checking the appropriate box.</p>
                     </div>
                     
                     <div class="privacy-section">
-                        <h2 class="privacy-title">6. Data Storage and Protection</h2>
-                        <p>We take all necessary organizational and technical measures to protect personal data from unauthorized access, alteration, disclosure, or destruction.</p>
+                        <h2 class="privacy-title" data-i18n="privacy.sections.storage.title">6. Data Storage and Protection</h2>
+                        <p data-i18n="privacy.sections.storage.content">We take all necessary organizational and technical measures to protect personal data from unauthorized access, alteration, disclosure, or destruction.</p>
                     </div>
-                    
-                    <div class="privacy-section">
-                        <h2 class="privacy-title">7. User Rights</h2>
-                        <p>The user has the right to:</p>
+                      <div class="privacy-section">
+                        <h2 class="privacy-title" data-i18n="privacy.sections.rights.title">7. User Rights</h2>
+                        <p data-i18n="privacy.sections.rights.description">The user has the right to:</p>
                         <ul class="privacy-list">
-                            <li>Receive information about their personal data</li>
-                            <li>Request changes to or deletion of their data</li>
-                            <li>Withdraw consent to data processing</li>
-                            <li>File complaints with authorized bodies</li>
+                            <li data-i18n="privacy.sections.rights.list.0">Receive information about their personal data</li>
+                            <li data-i18n="privacy.sections.rights.list.1">Request changes to or deletion of their data</li>
+                            <li data-i18n="privacy.sections.rights.list.2">Withdraw consent to data processing</li>
+                            <li data-i18n="privacy.sections.rights.list.3">File complaints with authorized bodies</li>
                         </ul>
                     </div>
-                    
-                    <div class="privacy-section">
-                        <h2 class="privacy-title">8. Transfer of Data to Third Parties</h2>
-                        <p>Personal data may be transferred to third parties only in cases provided for by the legislation of the Republic of Belarus or with the user's consent.</p>
+                      <div class="privacy-section">
+                        <h2 class="privacy-title" data-i18n="privacy.sections.transfer.title">8. Transfer of Data to Third Parties</h2>
+                        <p data-i18n="privacy.sections.transfer.content">Personal data may be transferred to third parties only in cases provided for by the legislation of the Republic of Belarus or with the user's consent.</p>
                     </div>
                     
                     <div class="privacy-section">
-                        <h2 class="privacy-title">9. Changes to the Privacy Policy</h2>
-                        <p>We reserve the right to make changes to this Privacy Policy. Changes take effect from the moment they are published on the Website.</p>
+                        <h2 class="privacy-title" data-i18n="privacy.sections.changes.title">9. Changes to the Privacy Policy</h2>
+                        <p data-i18n="privacy.sections.changes.content">We reserve the right to make changes to this Privacy Policy. Changes take effect from the moment they are published on the Website.</p>
                     </div>
                     
                     <div class="privacy-section">
-                        <h2 class="privacy-title">10. Contact Information</h2>
-                        <p>If you have questions about the processing of your personal data, you can contact us at: <a href="mailto:e.malikli1992@gmail.com" class="link">e.malikli1992@gmail.com</a>.</p>
+                        <h2 class="privacy-title" data-i18n="privacy.sections.contact.title">10. Contact Information</h2>
+                        <p><span data-i18n="privacy.sections.contact.content">If you have questions about the processing of your personal data, you can contact us at:</span> <a href="mailto:e.malikli1992@gmail.com" class="link" data-i18n="privacy.sections.contact.email">e.malikli1992@gmail.com</a>.</p>
                     </div>
                 </div>
             </div>
-            
-            <div class="privacy-content__section">
-                <h2 class="section-title">Need More Assistance?</h2>
-                <p>If you have any questions about our Privacy Policy or how we handle your data, please don't hesitate to contact us:</p>                <div class="contact-options">
-                    <a href="mailto:e.malikli1992@gmail.com" class="btn btn--secondary">Email Us</a>
-                    <a href="contact.html" class="btn btn--primary">Contact Page</a>
+              <div class="privacy-content__section">
+                <h2 class="section-title" data-i18n="privacy.assistance.title">Need More Assistance?</h2>
+                <p data-i18n="privacy.assistance.description">If you have any questions about our Privacy Policy or how we handle your data, please don't hesitate to contact us:</p>                <div class="contact-options">
+                    <a href="mailto:e.malikli1992@gmail.com" class="btn btn--secondary" data-i18n="privacy.assistance.buttons.email">Email Us</a>
+                    <a href="contact.html" class="btn btn--primary" data-i18n="privacy.assistance.buttons.contact">Contact Page</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <h3>MALIKLI1992</h3>
-                    <p>Exclusive fashion for the discerning individual.</p>                    <div class="footer__contact">
-                        <p><a href="mailto:e.malikli1992@gmail.com">e.malikli1992@gmail.com</a></p>
-                    </div>
-                </div>
-                
-                <div class="footer__nav">
-                    <div class="footer__column">
-                        <h4>Customer Support</h4>
-                        <ul class="footer__links">
-                            <li><a href="shipping.html">Shipping Information</a></li>
-                            <li><a href="returns.html">Returns & Exchanges</a></li>
-                            <li><a href="payment.html">Payment Methods</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__column">
-                        <h4>Company</h4>
-                        <ul class="footer__links">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__column">
-                        <h4>Follow Us</h4>
-                        <div class="social-links">
-                            <a href="https://www.instagram.com/malikli1992/" target="_blank" class="social-link" aria-label="Instagram">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" stroke="currentColor" stroke-width="2"/>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
-                                </svg>
-                            </a>
-                            <a href="https://www.tiktok.com/@malikli1992" target="_blank" class="social-link" aria-label="TikTok">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9 12A4 4 0 1 0 13 16V6.5C14.5 7.5 16.5 8 19 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer__bottom">
-                <div class="footer__info">
-                    <p>&copy; 2025 MALIKLI1992 LLC. All rights reserved.</p>
-                    <p>Limited Liability Company "MALIKLI1992"</p>
-                    <p>Manufacturer: MALIKLI1992 LLC</p>
-                
-                </div>
-                <div class="footer__payment">
-                    <img src="images/visa-logo.png" alt="Visa" class="payment-icon">
-                    <img src="images/mastercard-logo.png" alt="Mastercard" class="payment-icon">
-                    
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>    <!-- Scripts -->
+    <script src="js/i18n-config.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/components.js"></script>
     <script src="js/animations.js"></script>
 </body>
 </html>

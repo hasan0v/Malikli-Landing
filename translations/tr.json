@@ -1,0 +1,661 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "MALIKLI1992",
+    "subtitle": "Moda tutkunlarından oluşan samimi topluluğumuza katılın ve özel koleksiyonlarımız satışa çıktığında ilk siz haberdar olun. MALIKLI1992 ailesinin bir parçası olarak erken erişim ve özel üye fiyatlarından yararlanın.",
+    "cta": "Bekleme Listesine Katılın"
+  },
+  "comingSoon": {
+    "title": "Harika Bir Şey Geliyor",
+    "subtitle": "Sizin için olağanüstü bir deneyim hazırlıyoruz. Büyük sürpriz için bizi izlemeye devam edin!"
+  },
+  "features": {
+    "title": "Neden MALIKLI1992'yi Seçmelisiniz?",
+    "description": "Özel koleksiyonlarımız, seçici bireyler için özenle seçilmiş, premium parçalar içerir. Her ürün, en yüksek kaliteyi ve benzersiz tasarımı sağlamak için dikkatle seçilir.",
+    "exclusive": {
+      "title": "Erken Erişim",
+      "description": "Bekleme listesi üyeleri yeni koleksiyonlara ilk erişim hakkı kazanır"
+    },
+    "premium": {
+      "title": "Premium Kalite",
+      "description": "Yüksek kaliteli malzemeler ve olağanüstü işçilik"
+    },
+    "limited": {
+      "title": "Sınırlı Üretim",
+      "description": "Sınırlı sayıda mevcut özel parçalar"
+    }
+  },
+  "countdown": {
+    "title": "Sınırlı Süreli Teklif",
+    "subtitle": "Özel koleksiyonumuzu kaçırmayın",
+    "days": "Gün",
+    "hours": "Saat",
+    "minutes": "Dakika",
+    "seconds": "Saniye"
+  },
+  "waitlist": {
+    "title": "Özel Bekleme Listemize Katılın",
+    "subtitle": "Koleksiyonumuz piyasaya çıktığında ilk siz haberdar olun ve sınırlı üretim parçalara erken erişim sağlayın.",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "submit": "Bekleme Listesine Katıl",
+      "submitting": "Katılıyor...",
+      "namePlaceholder": "Adınız (İsteğe Bağlı)",
+      "emailPlaceholder": "E-posta Adresi",
+      "termsText": "E-posta güncellemelerini almayı ve kabul etmeyi onaylıyorum:",
+      "termsLink": "Şartlar ve Gizlilik Politikası"
+    },
+    "success": {
+      "title": "Katıldığınız için teşekkürler!",
+      "subtitle": "Koleksiyon satışa çıktığında sizi bilgilendireceğiz."
+    },
+    "benefits": {
+      "title": "Bekleme Listesi Avantajları",
+      "early": {
+        "title": "Erken Erişim",
+        "description": "Yeni koleksiyonlara halka açılmadan önce özel erişim sağlayın"
+      },
+      "special": {
+        "title": "Özel Fiyatlandırma",
+        "description": "Premium ürünlerde yalnızca üyelere özel indirimlerden ve özel tekliflerden yararlanın"
+      },
+      "updates": {
+        "title": "Son Güncellemeler",
+        "description": "Yeni çıkanlar, moda trendleri ve marka haberleri hakkında bilgi sahibi olun"
+      }
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "MALIKLI1992",
+      "tagline": "Seçici bireyler için özel moda."
+    },
+    "support": {
+      "title": "Müşteri Desteği",
+      "shipping": "Kargo Bilgileri",
+      "returns": "İade ve Değişim",
+      "payment": "Ödeme Yöntemleri"
+    },
+    "company": {
+      "title": "Şirket",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Şartlar ve Koşullar"
+    },
+    "social": {
+      "title": "Bizi Takip Edin"
+    },
+    "bottom": {
+      "copyright": "© 2025 MALIKLI1992 LLC. Tüm hakları saklıdır.",
+      "company": "Sınırlı Sorumlu Şirket \"MALIKLI1992\"",
+      "manufacturer": "Üretici: MALIKLI1992 LLC"
+    }
+  },
+  "meta": {
+    "title": "MALIKLI1992 - Özel Moda Koleksiyonu",
+    "description": "MALIKLI1992'nin özel moda koleksiyonunu keşfedin. Seçici bireyler için premium kalitede giyim. Sınırlı üretim parçalara erken erişim için bekleme listemize katılın."
+  },
+  "language": {
+    "select": "Dil",
+    "english": "İngilizce"
+  },
+  "returns": {
+    "meta": {
+      "title": "İade ve Değişim - MALIKLI1992",
+      "description": "MALIKLI1992 ürünleri için iade ve değişim politikamız, garanti bilgileri ve koşulları hakkında bilgi edinin."
+    },
+    "hero": {
+      "title": "İade ve Değişim",
+      "subtitle": "Ürün iadeleri, değişimleri ve garanti bilgilerine ilişkin politikamız"
+    },
+    "content": {
+      "mainTitle": "Garanti, Değişim ve İadeler",
+      "overview": {
+        "title": "İade Politikasına Genel Bakış",
+        "description1": "Görünüşleri, fabrika etiketleri, markaları ve tüketici özellikleri korunmuşsa ve satın almayı onaylayan bir belgeniz varsa, uygun kalitedeki ürünleri iade edebilirsiniz. Kullanılmış ürünler iade edilemez.",
+        "description2": "Belarus Cumhuriyeti'nin 9 Ocak 2002 tarihli 'Tüketicinin Korunması Hakkında' Kanunu'nun (bundan sonra Kanun olarak anılacaktır) 28. Maddesi uyarınca, uygun kalitedeki ürünlerin iadesi ve değişimi düzenlenmekte olup, tüketici on dört gün içinde uygun kalitedeki bir ürünü iade etme veya benzer bir ürünle değiştirme hakkına sahiptir."
+      },
+      "conditions": {
+        "title": "İade Koşulları",
+        "intro": "Bir iadenin kabul edilmesi için aşağıdaki koşulların karşılanması gerekir:",
+        "list": [
+          "Ürün, tüm etiketleri ve markaları bozulmamış orijinal durumunda olmalıdır",
+          "Orijinal ambalaj hasarsız ve eksiksiz olmalıdır",
+          "Satın alma kanıtı (fiş veya sipariş onayı) sunmalısınız",
+          "Ürün herhangi bir kullanım veya aşınma belirtisi göstermemelidir",
+          "İade, siparişi aldıktan sonraki 14 gün içinde başlatılmalıdır"
+        ]
+      },
+      "howTo": {
+        "title": "Nasıl İade Edilir",
+        "intro": "Bir iade veya değişim başlatmak için lütfen şu adımları izleyin:",
+        "steps": [
+          "14 günlük iade süresi içinde e-posta veya telefon yoluyla müşteri hizmetleri ekibimizle iletişime geçin",
+          "Sipariş numaranızı ve iade etmek istediğiniz ürünlerin ayrıntılarını sağlayın",
+          "Ekibimiz size bir iade yetkisi ve talimatları sağlayacaktır",
+          "Ürünleri orijinal ambalajlarında güvenli bir şekilde paketleyin",
+          "Paketi müşteri hizmetleri ekibimiz tarafından sağlanan adrese gönderin"
+        ],
+        "conclusion": "İade edilen ürünleri alıp inceledikten sonra, 5-7 iş günü içinde iadenizi veya değişiminizi işleme koyacağız."
+      },
+      "exchanges": {
+        "title": "Değişimler",
+        "description": "Bir ürünü farklı bir beden veya renkle değiştirmek isterseniz, lütfen iadelerle aynı prosedürü izleyin. Değişimlerin stok durumuna bağlı olduğunu unutmayın. İstenen değişim ürünü mevcut değilse, iade edilen ürün için para iadesi yapacağız."
+      },
+      "refunds": {
+        "title": "Para İadeleri",
+        "description": "Para iadeleri orijinal ödeme yöntemi kullanılarak işleme alınacaktır. İadenizi işleme aldıktan sonra paranın hesabınızda görünmesi için lütfen 5-7 iş günü bekleyin. İade bizim hatamızdan kaynaklanmadıkça kargo ücretlerinin iade edilmediğini lütfen unutmayın."
+      },
+      "defectiveItems": {
+        "title": "Kusurlu Ürünler",
+        "intro": "Kusurlu bir ürün alırsanız, lütfen derhal müşteri hizmetleri ekibimizle iletişime geçin. Kusurlu ürünler için şunları sunuyoruz:",
+        "list": [
+          "Kargo ücretleri dahil tam para iadesi",
+          "Aynı ürünle değişim",
+          "Mağaza kredisi"
+        ],
+        "conclusion": "Sorunu hızlı bir şekilde çözmemize yardımcı olmak için lütfen müşteri hizmetleri ekibimizle iletişime geçerken kusurlu ürünün fotoğraflarını sağlayın."
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "questions": [
+        {
+          "question": "Bir ürünü iade etmek için ne kadar sürem var?",
+          "answer": "Siparişinizi aldıktan sonraki 14 gün içinde iade veya değişim başlatma hakkınız vardır."
+        },
+        {
+          "question": "Bir ürünü giydiysem veya etiketlerini çıkardıysam iade edebilir miyim?",
+          "answer": "Hayır, ürünlerin iade veya değişim için uygun olması için orijinal, kullanılmamış durumda ve tüm etiketlerinin ve markalarının bozulmamış olması gerekir."
+        },
+        {
+          "question": "İade kargo ücretini ödemem gerekiyor mu?",
+          "answer": "Evet, iade bizim tarafımızdan yapılan bir hata veya kusurlu bir ürün nedeniyle olmadığı sürece iade kargo masraflarından müşteriler sorumludur."
+        },
+        {
+          "question": "Para iademin işlenmesi ne kadar sürer?",
+          "answer": "İadenizi alıp inceledikten sonra, 5-7 iş günü içinde para iadenizi işleme koyacağız. Ödeme sağlayıcınıza bağlı olarak paranın hesabınızda görünmesi birkaç gün daha sürebilir."
+        },
+        {
+          "question": "Değiştirmek istediğim ürün stokta yoksa ne olur?",
+          "answer": "Değiştirmek istediğiniz ürün mevcut değilse, iade edilen ürün için para iadesi yapacağız veya size eşit değerde alternatif bir ürün sunacağız."
+        },
+        {
+          "question": "Sınırlı üretim veya indirimli ürünleri iade edebilir miyim?",
+          "answer": "Evet, sınırlı üretim ve indirimli ürünler, iade koşullarının tümünü (kullanılmamış, etiketleri sağlam, 14 gün içinde) karşılamaları koşuluyla normal ürünlerle aynı iade politikasını izler."
+        }
+      ]
+    },
+    "assistance": {
+      "title": "Daha Fazla Yardıma mı İhtiyacınız Var?",
+      "description": "İadeler, değişimler veya garanti politikamız hakkında başka sorularınız varsa, lütfen müşteri destek ekibimizle iletişime geçmekten çekinmeyin:",
+      "emailButton": "Bize E-posta Gönderin",
+      "contactButton": "İletişim Sayfası"
+    }
+  },
+  "payment": {
+    "meta": {
+      "title": "Ödeme Yöntemleri - MALIKLI1992",
+      "description": "MALIKLI1992 ürünleri için kredi kartı seçenekleri ve diğer ödeme bilgileri dahil olmak üzere mevcut ödeme yöntemleri hakkında bilgi edinin."
+    },
+    "hero": {
+      "title": "Ödeme Yöntemleri",
+      "subtitle": "Siparişleriniz için mevcut ödeme seçenekleri hakkında bilgiler"
+    },
+    "content": {
+      "title": "Mevcut Ödeme Yöntemleri",
+      "cards": {
+        "title": "Kredi ve Banka Kartları",
+        "description": "Siparişinizi aşağıdaki ödeme sistemlerinden banka kartları kullanarak ödeyebilirsiniz:",
+        "visa": {
+          "title": "Visa",
+          "description": "Tüm Visa banka ve kredi kartları kabul edilir"
+        },
+        "mastercard": {
+          "title": "Mastercard",
+          "description": "Tüm Mastercard banka ve kredi kartları kabul edilir"
+        }
+      },
+      "security": {
+        "title": "Ödeme Güvenliği",
+        "description": "Tüm ödemeler SSL şifrelemesi kullanılarak güvenli bir şekilde işlenir. Kart bilgileriniz sunucularımızda asla saklanmaz, bu da mali bilgileriniz için maksimum güvenlik sağlar."
+      },
+      "charging": {
+        "title": "Ne Zaman Ücretlendirileceğim?",
+        "description": "Kartınız, satın alma işleminizi tamamladığınızda hemen ücretlendirilecektir. Ücret, ekstrenizde \"MALIKLI1992\" olarak görünecektir."
+      },
+      "otherMethods": {
+        "title": "Diğer Ödeme Yöntemleri",
+        "description": "Şu anda diğer ödeme yöntemleri mevcut değildir. Ödeme ile ilgili sorularınız veya özel talepleriniz varsa, lütfen müşteri destek ekibimizle iletişime geçin."
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular",
+      "questions": {
+        "safety": {
+          "question": "Web sitenizde kredi kartımı kullanmak güvenli mi?",
+          "answer": "Evet, web sitemizdeki tüm ödemeler güvenli SSL şifrelemesi kullanılarak işlenir. Kart bilgileriniz korunur ve sunucularımızda asla saklanmaz."
+        },
+        "international": {
+          "question": "Uluslararası kredi kartlarını kabul ediyor musunuz?",
+          "answer": "Evet, dünya çapındaki bankalar tarafından verilen Visa ve Mastercard'ı kabul ediyoruz. Uluslararası işlemlerin bankanızdan kur dönüşüm ücretlerine tabi olabileceğini lütfen unutmayın."
+        },
+        "whenCharged": {
+          "question": "Kartım ne zaman ücretlendirilecek?",
+          "answer": "Satın alma işleminizi tamamladığınızda kartınız hemen ücretlendirilecektir. İşlem, ekstrenizde \"MALIKLI1992\" olarak görünecektir."
+        },
+        "digitalWallets": {
+          "question": "PayPal veya diğer dijital cüzdanlarla ödeme yapabilir miyim?",
+          "answer": "Şu anda yalnızca Visa ve Mastercard ile ödeme kabul ediyoruz. Gelecekte daha fazla ödeme yöntemi eklemek için çalışıyoruz."
+        },
+        "declined": {
+          "question": "Ödemem reddedilirse ne yapmalıyım?",
+          "answer": "Ödemeniz reddedilirse, lütfen kart bilgilerinizin doğru girildiğini doğrulayın. Sorun devam ederse, kartınızda çevrimiçi alışverişler için herhangi bir kısıtlama olmadığından emin olmak için bankanızla iletişime geçin. Ayrıca yardım için müşteri destek ekibimize ulaşabilirsiniz."
+        }
+      }
+    },
+    "assistance": {
+      "title": "Daha Fazla Yardıma mı İhtiyacınız Var?",
+      "description": "Ödeme yöntemleri hakkında başka sorularınız varsa veya işleminizle ilgili herhangi bir sorun yaşarsanız, lütfen müşteri destek ekibimizle iletişime geçmekten çekinmeyin:",
+      "buttons": {
+        "email": "Bize E-posta Gönderin",
+        "contact": "İletişim Sayfası"
+      }
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Hakkımızda - MALIKLI1992",
+      "description": "MALIKLI1992, hikayemiz, vizyonumuz ve özel moda lansmanları ile premium parçalara olan bağlılığımız hakkında daha fazla bilgi edinin."
+    },
+    "hero": {
+      "title": "MALIKLI1992 Hakkında",
+      "subtitle": "Özel lansmanlar ve premium işçilikle stili yeniden tanımlıyoruz"
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "paragraph1": "MALIKLI1992, moda aracılığıyla otantik kendini ifadenin bir tutkusundan doğdu. Vizyoner girişimci Emin Malikli tarafından kurulan markamız, kültürel mirasın ve çağdaş stilin mükemmel bir birleşimini temsil ediyor.",
+      "paragraph2": "Bizi farklı kılan, drop modeline olan bağlılığımızdır — belirli zamanlarda sınırlı miktarlarda piyasaya sürülen, titizlikle seçilmiş koleksiyonlar. Her lansman sadece giyimden daha fazlasıdır; kaliteye, yeniliğe ve benzersizliğe olan bağlılığımızı somutlaştıran sanatsal bir ifadedir.",
+      "paragraph3": "Koleksiyonumuzdaki her parça, günlük stillerinde olağanüstü olanı takdir edenler için tasarlanmış işçilik ve yaratıcı vizyonun bir hikayesini anlatır."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "paragraph1": "MALIKLI1992'de misyonumuz, ayrıcalığı, özgünlüğü ve olağanüstü kaliteyi değer veren moda tutkunlarından oluşan canlı bir topluluk oluşturmaktır. Seri üretim modadan sıyrılan, kreasyonlarımızla onları giyenler arasında anlamlı bağlantılar kuran sınırlı sayıda üretilen parçaların gücüne inanıyoruz.",
+      "paragraph2": "Modaya benzersiz yaklaşımımızla, markalar ve tüketiciler arasındaki ilişkiyi yeniden tanımlamayı, her satın almayı hatırlanacak ve kutlanacak bir olay haline getirmeyi amaçlıyoruz."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "paragraph1": "MALIKLI1992'yi özel moda lansmanlarında küresel bir lider olarak, sektörde yaratıcılık ve yenilikçilik için yeni standartlar belirleyen bir konuma getirmeyi hedefliyoruz. Amacımız, düşünülerek tasarlanmış, mevsimsel trendleri aşan sınırlı sayıda üretilen parçalara duyulan takdirle birleşmiş dünya çapında bir topluluk oluşturmaktır.",
+      "paragraph2": "Bu vizyonda moda, sadece giyimden daha fazlası haline gelir — kişisel ifadenin bir biçimi, bireyselliğin bir beyanı ve parçalarımızı giyenlerle rezonansa giren bir sanat kutlamasıdır."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "exclusivity": {
+        "title": "Ayrıcalık",
+        "description": "Ürünleri sınırlı miktarlarda üretiyoruz, böylece her parçanın koleksiyonunuzdaki benzersiz değerini ve özel yerini korumasını sağlıyoruz."
+      },
+      "quality": {
+        "title": "Kalite",
+        "description": "Kumaş seçiminden son dikişe kadar malzemelerden, işçilikten veya detaylara gösterilen özenden asla ödün vermiyoruz."
+      },
+      "innovation": {
+        "title": "Yenilikçilik",
+        "description": "Modaya taze bakış açıları getirmek için tasarım, teknoloji ve sürdürülebilirlik alanlarında sürekli olarak sınırları zorluyoruz."
+      },
+      "community": {
+        "title": "Topluluk",
+        "description": "Benzersiz moda ve yaratıcı ifadeye olan takdirimizi paylaşan stil tutkunlarından oluşan tutkulu bir topluluğu besliyoruz."
+      }
+    },
+    "join": {
+      "title": "Hareketimize Katılın",
+      "description": "Özel bekleme listemize katılarak MALIKLI1992 topluluğunun bir parçası olun. Yaklaşan lansmanlar, özel sürümler hakkında ilk siz haberdar olun ve en çok rağbet gören parçalarımıza erken erişim sağlayın.",
+      "cta": "Bekleme Listesine Katılın"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Bize Ulaşın - MALIKLI1992",
+      "description": "Özel moda lansmanlarımız, işbirliklerimiz veya müşteri desteği hakkında sorularınız için MALIKLI1992 ile iletişime geçin."
+    },
+    "hero": {
+      "title": "Bize Ulaşın",
+      "subtitle": "Size yardımcı olmak için buradayız"
+    },
+    "info": {
+      "email": {
+        "title": "E-posta Adresi",
+        "address": "e.malikli1992@gmail.com"
+      },
+      "social": {
+        "title": "Bizi Takip Edin",
+        "instagram": "Instagram",
+        "tiktok": "TikTok"
+      }
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "fields": {
+        "name": {
+          "label": "Adınız",
+          "placeholder": "Adınızı girin"
+        },
+        "email": {
+          "label": "E-postanız",
+          "placeholder": "E-postanızı girin"
+        },
+        "subject": {
+          "label": "Konu",
+          "placeholder": "Konuyu girin"
+        },
+        "message": {
+          "label": "Mesajınız",
+          "placeholder": "Mesajınızı buraya yazın..."
+        },
+        "privacy": "Gizlilik Politikasını kabul ediyorum ve verilerimin işlenmesine izin veriyorum."
+      },
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor..."
+    },
+    "success": {
+      "icon": "✉️",
+      "title": "Teşekkür Ederiz!",
+      "message": "Mesajınız gönderildi. En kısa sürede size geri döneceğiz.",
+      "sendAnother": "Başka Bir Mesaj Gönder"
+    },
+    "error": {
+      "icon": "❌",
+      "title": "Eyvah!",
+      "message": "Mesajınız gönderilirken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.",
+      "tryAgain": "Tekrar Dene"
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Gizlilik Politikası - MALIKLI1992",
+      "description": "MALIKLI1992'nin kişisel verilerinizi Belarus Cumhuriyeti yasalarına uygun olarak nasıl işlediği ve koruduğu hakkında bilgi edinin."
+    },
+    "hero": {
+      "title": "Gizlilik Politikası",
+      "subtitle": "Kişisel verilerinizi nasıl işlediğimiz ve koruduğumuz"
+    },
+    "effectiveDate": "Yürürlük Tarihi: 12 Mayıs 2025",
+    "sections": {
+      "general": {
+        "title": "1. Genel Hükümler",
+        "content": "Bu Gizlilik Politikası, MALIKLI1992 web sitesini (bundan sonra \"Web Sitesi\" olarak anılacaktır) kullanırken sağlanan kullanıcıların kişisel verilerinin işlenmesi ve korunması prosedürünü tanımlar."
+      },
+      "legal": {
+        "title": "2. Yasal Dayanak",
+        "content": "Kişisel verilerin işlenmesi, Belarus Cumhuriyeti'nin 15 Kasım 2021 tarihli \"Kişisel Verilerin Korunması Hakkında\" Kanunu ve Belarus Cumhuriyeti'nin diğer düzenleyici yasal düzenlemelerine uygun olarak gerçekleştirilir."
+      },
+      "personalData": {
+        "title": "3. Kişisel Veriler",
+        "description": "Aşağıdaki kişisel verileri toplayabiliriz:",
+        "list": [
+          "Ad Soyad",
+          "İletişim bilgileri (e-posta adresi, telefon numarası)",
+          "Teslimat adresi",
+          "Ödeme detayları",
+          "Kullanıcı tarafından gönüllü olarak sağlanan diğer veriler"
+        ]
+      },
+      "purposes": {
+        "title": "4. Veri İşleme Amaçları",
+        "description": "Kişisel veriler aşağıdaki amaçlarla işlenir:",
+        "list": [
+          "Siparişlerin işlenmesi ve hizmetlerin sağlanması",
+          "Kullanıcılarla iletişim",
+          "Bilgilendirme ve tanıtım materyallerinin gönderilmesi (onay ile)",
+          "Hizmet kalitesinin iyileştirilmesi"
+        ]
+      },
+      "consent": {
+        "title": "5. Veri İşlemeye Onay",
+        "content": "Kullanıcı, Web Sitesi'ne kaydolurken veya sipariş verirken, ilgili kutucuğu işaretleyerek kişisel verilerinin işlenmesine onay verir."
+      },
+      "storage": {
+        "title": "6. Veri Saklama ve Koruma",
+        "content": "Kişisel verileri yetkisiz erişim, değiştirme, ifşa etme veya imha etmeye karşı korumak için gerekli tüm organizasyonel ve teknik önlemleri alıyoruz."
+      },
+      "rights": {
+        "title": "7. Kullanıcı Hakları",
+        "description": "Kullanıcının şu hakları vardır:",
+        "list": [
+          "Kişisel verileri hakkında bilgi alma",
+          "Verilerinin değiştirilmesini veya silinmesini talep etme",
+          "Veri işlemeye verdiği onayı geri çekme",
+          "Yetkili makamlara şikayette bulunma"
+        ]
+      },
+      "transfer": {
+        "title": "8. Verilerin Üçüncü Taraflara Aktarılması",
+        "content": "Kişisel veriler, yalnızca Belarus Cumhuriyeti mevzuatında öngörülen durumlarda veya kullanıcının onayı ile üçüncü taraflara aktarılabilir."
+      },
+      "changes": {
+        "title": "9. Gizlilik Politikasındaki Değişiklikler",
+        "content": "Bu Gizlilik Politikasında değişiklik yapma hakkımızı saklı tutarız. Değişiklikler, Web Sitesi'nde yayınlandıkları andan itibaren yürürlüğe girer."
+      },
+      "contact": {
+        "title": "10. İletişim Bilgileri",
+        "content": "Kişisel verilerinizin işlenmesi hakkında sorularınız varsa, bize şu adresten ulaşabilirsiniz:",
+        "email": "e.malikli1992@gmail.com"
+      }
+    },
+    "assistance": {
+      "title": "Daha Fazla Yardıma mı İhtiyacınız Var?",
+      "description": "Gizlilik Politikamız veya verilerinizi nasıl işlediğimiz hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçmekten çekinmeyin:",
+      "buttons": {
+        "email": "Bize E-posta Gönderin",
+        "contact": "İletişim Sayfası"
+      }
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Şartlar ve Koşullar - MALIKLI1992",
+      "description": "MALIKLI1992 web sitesi ve ürünlerinin kullanım şartları ve koşulları. Politikalarımız ve kullanıcı sözleşmelerimiz hakkında bilgi edinin."
+    },
+    "hero": {
+      "title": "Şartlar ve Koşullar",
+      "subtitle": "MALIKLI1992 web sitesi ve hizmetlerinin kullanım şartları"
+    },
+    "dates": {
+      "effective": "Yürürlük Tarihi: 26 Mayıs 2025",
+      "lastUpdated": "Son Güncelleme: 26 Mayıs 2025"
+    },
+    "sections": {
+      "agreement": {
+        "title": "1. Şartların Kabulü",
+        "content": "MALIKLI1992 web sitesine ve hizmetlerine erişerek ve bunları kullanarak, bu Şartlar ve Koşullara ve geçerli tüm yasa ve düzenlemelere bağlı kalmayı kabul edersiniz. Bu şartlardan herhangi birini kabul etmiyorsanız, bu siteyi kullanmanız veya erişmeniz yasaktır."
+      },
+      "company": {
+        "title": "2. Şirket Bilgileri",
+        "content": "Bu şartlar sizinle Sınırlı Sorumlu Şirket \"MALIKLI1992\" (bundan sonra \"Şirket\", \"biz\", \"bize\" veya \"bizim\" olarak anılacaktır) arasında akdedilmiştir.",
+        "details": {
+          "name": "Şirket Adı: Sınırlı Sorumlu Şirket \"MALIKLI1992\"",
+          "contact": "İletişim: e.malikli1992@gmail.com"
+        }
+      },
+      "license": {
+        "title": "3. Kullanım Lisansı",
+        "description": "MALIKLI1992'nin web sitesindeki materyallerin bir kopyasını yalnızca kişisel, ticari olmayan geçici görüntüleme için geçici olarak indirme izni verilir. Bu, bir lisansın verilmesidir, bir mülkiyet devri değildir ve bu lisans kapsamında şunları yapamazsınız:",
+        "restrictions": [
+          "Materyalleri değiştirmek veya kopyalamak",
+          "Materyalleri herhangi bir ticari amaçla veya herhangi bir kamuya açık gösterim için kullanmak",
+          "Web sitesinde bulunan herhangi bir yazılımı tersine mühendislik yapmaya çalışmak",
+          "Materyallerden herhangi bir telif hakkı veya diğer mülkiyet bildirimlerini kaldırmak"
+        ],
+        "termination": "Bu kısıtlamalardan herhangi birini ihlal etmeniz durumunda bu lisans otomatik olarak sona erecektir ve MALIKLI1992 tarafından herhangi bir zamanda sonlandırılabilir."
+      },
+      "products": {
+        "title": "4. Ürün Bilgileri ve Siparişler",
+        "description": "Doğru ürün açıklamaları, fiyatları ve stok durumu bilgileri sağlamaya çalışıyoruz. Ancak, ürün açıklamalarının veya diğer içeriğin doğru, eksiksiz, güvenilir veya hatasız olduğunu garanti etmiyoruz.",
+        "terms": [
+          "Tüm siparişler kabul ve stok durumuna tabidir",
+          "Herhangi bir siparişi reddetme veya iptal etme hakkımızı saklı tutarız",
+          "Fiyatlar haber verilmeksizin değiştirilebilir",
+          "Ürün görselleri örnekleme amaçlıdır ve gerçek ürünlerden farklılık gösterebilir"
+        ]
+      },
+      "payment": {
+        "title": "5. Ödeme Koşulları",
+        "description": "Ödeme, satın alma sırasında kabul edilen ödeme yöntemlerimizden biri (Visa, Mastercard) kullanılarak yapılmalıdır. Ödeme bilgilerini sağlayarak, ödeme yöntemini kullanma yetkinizin olduğunu beyan edersiniz.",
+        "terms": [
+          "Tüm ödemeler güvenli bir şekilde işlenir",
+          "Ödeme bilgilerini doğrulama hakkımızı saklı tutarız",
+          "Uluslararası işlemler için kur dönüşüm ücretleri uygulanabilir",
+          "Ödeme anlaşmazlıkları müşteri hizmetleri ekibimize yönlendirilmelidir"
+        ]
+      },
+      "shipping": {
+        "title": "6. Kargo ve Teslimat",
+        "description": "Kargo koşulları Kargo Bilgileri sayfamızda detaylandırılmıştır. Teslimat süreleri tahminidir ve garanti edilmez. Ürünlerin kayıp riski ve mülkiyeti, taşıyıcıya teslim edildiğinde size geçer."
+      },
+      "returns": {
+        "title": "7. İadeler ve Değişimler",
+        "description": "İade ve değişim politikamız Belarus tüketici koruma yasası, özellikle \"Tüketici Haklarının Korunması Hakkında\" Kanun'un 28. Maddesi tarafından yönetilmektedir. Tüm detaylar İade ve Değişim sayfamızda mevcuttur."
+      },
+      "disclaimer": {
+        "title": "8. Sorumluluk Reddi",
+        "content": "MALIKLI1992'nin web sitesindeki materyaller 'olduğu gibi' esasına göre sunulmaktadır. MALIKLI1992, açık veya zımni hiçbir garanti vermez ve bu vesileyle, ticarete elverişlilik, belirli bir amaca uygunluk veya fikri mülkiyetin veya diğer hak ihlallerinin ihlal edilmemesi dahil ancak bunlarla sınırlı olmamak üzere diğer tüm garantileri reddeder ve geçersiz kılar."
+      },
+      "limitations": {
+        "title": "9. Sınırlamalar",
+        "content": "Hiçbir durumda MALIKLI1992 veya tedarikçileri, MALIKLI1992'nin web sitesindeki materyallerin kullanımından veya kullanılamamasından kaynaklanan herhangi bir zarardan (veri veya kar kaybı veya iş kesintisi nedeniyle oluşan zararlar dahil ancak bunlarla sınırlı olmamak üzere) sorumlu tutulamaz, MALIKLI1992 veya MALIKLI1992 yetkili bir temsilcisi sözlü veya yazılı olarak bu tür bir hasar olasılığı hakkında bilgilendirilmiş olsa bile. Bazı yargı bölgeleri zımni garantiler üzerinde sınırlamalara veya sonuçsal veya arızi zararlar için sorumluluk sınırlamalarına izin vermediğinden, bu sınırlamalar sizin için geçerli olmayabilir."
+      },
+      "accuracy": {
+        "title": "10. Materyallerin Doğruluğu",
+        "content": "MALIKLI1992'nin web sitesinde görünen materyaller teknik, tipografik veya fotoğrafik hatalar içerebilir. MALIKLI1992, web sitesindeki materyallerin herhangi birinin doğru, eksiksiz veya güncel olduğunu garanti etmez. MALIKLI1992, web sitesinde bulunan materyallerde herhangi bir zamanda bildirimde bulunmaksızın değişiklik yapabilir."
+      },
+      "links": {
+        "title": "11. Bağlantılar",
+        "content": "MALIKLI1992, web sitemize bağlı tüm siteleri incelememiştir ve bu tür bağlantılı sitelerin içeriğinden sorumlu değildir. Herhangi bir bağlantının dahil edilmesi, MALIKLI1992 tarafından sitenin onaylandığı anlamına gelmez. Bu tür bağlantılı bir web sitesinin kullanımı kullanıcının kendi riskindedir."
+      },
+      "modifications": {
+        "title": "12. Değişiklikler",
+        "content": "MALIKLI1992, bu hizmet şartlarını herhangi bir zamanda bildirimde bulunmaksızın revize edebilir. Bu web sitesini kullanarak, bu hizmet şartlarının o anki geçerli sürümüne bağlı kalmayı kabul ediyorsunuz."
+      },
+      "governing": {
+        "title": "13. Geçerli Hukuk",
+        "content": "Bu şartlar ve koşullar Belarus Cumhuriyeti yasalarına göre yönetilir ve yorumlanır. Bu şartlardan kaynaklanan herhangi bir anlaşmazlık Belarus mahkemelerinin münhasır yargı yetkisine tabi olacaktır."
+      },
+      "privacy": {
+        "title": "14. Gizlilik Politikası",
+        "content": "Gizliliğiniz bizim için önemlidir. Uygulamalarımızı anlamak için lütfen web sitesini kullanımınızı da yöneten Gizlilik Politikamızı inceleyin."
+      },
+      "contact": {
+        "title": "15. İletişim Bilgileri",
+        "description": "Bu Şartlar ve Koşullar hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:",
+        "details": {
+          "email": "E-posta: e.malikli1992@gmail.com",
+          "address": "Adres: 220005, Minsk, Vera Khoruzhey St., 6A, ofis 94I"
+        }
+      }
+    }
+  },
+  "shipping": {
+    "meta": {
+      "title": "Uluslararası Kargo - MALIKLI1992",
+      "description": "Uluslararası teslimat seçeneklerimizi keşfedin. Dünya çapında 140'tan fazla ülkeye detaylı teslimat süreleriyle hızlı, güvenilir kargo."
+    },
+    "hero": {
+      "title": "Dünya Çapında Kargo",
+      "subtitle": "Kapsamlı hizmet seçenekleriyle 140'tan fazla ülkeye hızlı, güvenilir teslimat",
+      "stats": {
+        "countries": "Ülke",
+        "delivery": "Gün Teslimat",
+        "tracked": "Takip Edilen"
+      }
+    },
+    "globalReach": {
+      "title": "Küresel Erişimimiz",
+      "subtitle": "MALIKLI1992'nin özel modasını dünyanın dört bir yanındaki seçkin müşterilere ulaştırarak dünya çapında 140'tan fazla ülkeye gururla gönderim yapıyoruz."
+    },
+    "services": {
+      "domestic": {
+        "title": "Yurtiçi Kargo (Belarus)",
+        "time": "Yerel teslimatlar için 1-3 iş günü"
+      },
+      "international": {
+        "title": "Uluslararası Kargo",
+        "time": "Varış noktasına bağlı olarak 5-21 gün"
+      },
+      "express": {
+        "title": "Ekspres Hizmetler",
+        "time": "5-15 iş günü"
+      },
+      "standard": {
+        "title": "Standart Hizmetler",
+        "time": "1-4 hafta"
+      }
+    },
+    "deliveryTimes": {
+      "title": "Hizmete Göre Teslimat Süreleri"
+    },
+    "ems": {
+      "title": "Uluslararası EMS (Ekspres Posta Servisi)"
+    },
+    "parcels": {
+      "title": "Uluslararası Paketler",
+      "priority": "Öncelikli Paketler",
+      "nonPriority": "Öncelikli Olmayan Paketler"
+    },
+    "deliveryTime": "Teslimat süresi:",
+    "tracking": "Takip:",
+    "fullTracking": "Tam takip",
+    "note": "Not:",
+    "neighboringCountry": "Komşu ülke",
+    "factors": {
+      "title": "Teslimat Sürelerini Etkileyen Faktörler",
+      "delays": {
+        "title": "Olası Gecikmeler",
+        "customs": "Gümrük işlemleri",
+        "remote": "Uzak varış bölgeleri",
+        "holidays": "Ulusal tatiller",
+        "weather": "Hava koşulları",
+        "peak": "Yoğun kargo sezonları"
+      },
+      "faster": {
+        "title": "Daha Hızlı Teslimat Yapılan Yerler"
+      },
+      "longer": {
+        "title": "Daha Uzun Sürede Teslimat Yapılan Yerler",
+        "remote": "Uzak bölgeler: 20-35 gün"
+      }
+    },
+    "faq": {
+      "title": "Kargo SSS",
+      "services": {
+        "question": "Hangi kargo hizmetlerini sunuyorsunuz?",
+        "answer": "Uluslararası EMS (Ekspres Posta Servisi), Öncelikli ve Öncelikli Olmayan Uluslararası Paketler dahil olmak üzere birden fazla kargo seçeneği sunuyoruz. Belarus içinde yurtiçi teslimat 1-3 iş günü sürerken, uluslararası kargo varış noktasına ve hizmet türüne bağlı olarak 5-21 gün arasında değişmektedir."
+      },
+      "tracking": {
+        "question": "Takip bilgisi sağlıyor musunuz?",
+        "answer": "Evet, tüm gönderiler gönderimden teslimata kadar tam takip içerir. Siparişiniz gönderildikten sonra e-posta yoluyla bir takip numarası alacaksınız, bu da paketinizin yolculuğu boyunca ilerlemesini izlemenizi sağlar."
+      },
+      "timeframes": {
+        "question": "Teslimat süreleri nelerdir?",
+        "answer": "Teslimat süreleri varış noktasına ve hizmete göre değişir: Avrupa'ya EMS (5-10 gün), Kuzey Amerika (7-14 gün), Asya (5-12 gün), Avustralya (8-15 gün) ve Rusya (3-7 gün). Standart paketler daha uzun sürer, öncelik seviyesine ve varış noktasına bağlı olarak 7-28 gün arasında değişir."
+      },
+      "customs": {
+        "question": "Herhangi bir gümrük vergisi veya vergi var mı?",
+        "answer": "Ülkenizin düzenlemelerine ve siparişinizin değerine bağlı olarak gümrük vergileri ve vergiler uygulanabilir. Bu ücretler alıcının sorumluluğundadır ve kargo maliyetlerimize dahil değildir. Gümrük işlemleri de teslimat sürelerini etkileyebilir."
+      },
+      "delays": {
+        "question": "Teslimat sürelerini hangi faktörler etkileyebilir?",
+        "answer": "Gümrük işlemleri, uzak varış noktaları, ulusal tatiller, hava koşulları ve yoğun kargo sezonları dahil olmak üzere birçok faktör teslimat sürelerini etkileyebilir. Tatil dönemlerinde ve uzak bölgelere teslimatlar için ek süre tanımanızı öneririz."
+      },
+      "coverage": {
+        "question": "Hangi ülkelere gönderim yapıyorsunuz?",
+        "answer": "Dünya çapında 140'tan fazla ülkeye gönderim yapıyoruz. Rusya gibi komşu ülkeler genellikle daha hızlı teslimat alır (3-7 gün), uzak bölgelerdeki daha uzak yerler ise 20-35 gün sürebilir. Belirli konumunuza teslimat konusunda emin değilseniz bizimle iletişime geçin."
+      }
+    }
+  }
+}

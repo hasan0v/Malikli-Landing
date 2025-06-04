@@ -27,9 +27,9 @@ class MalikliApp {
             } else if (!window.MEDIA_CONFIG.baseUrl) {
                 window.MEDIA_CONFIG.baseUrl = ''; // Ensure baseUrl exists
             }
-            
-            await this.waitForDependencies();
-            await this.loadDropData(); // Initial call, not a retry
+              await this.waitForDependencies();
+            // TEMPORARILY COMMENTED OUT - Dynamic drop updates
+            // await this.loadDropData(); // Initial call, not a retry
             this.setupEventListeners();
             this.initializeAnalytics();
             this.isInitialized = true;
@@ -82,8 +82,8 @@ class MalikliApp {
         }
         
         console.log('✅ All dependencies loaded successfully');
-    }
-
+    }    // TEMPORARILY COMMENTED OUT - Dynamic drop data loading
+    /*
     async loadDropData(isRetry = false) {
         if (!isRetry) {
             this.retryCount = 0; // Reset for a fresh sequence of attempts
@@ -115,6 +115,7 @@ class MalikliApp {
             }
         }
     }
+    */
 
     // Helper method to format banner URLs
     _formatBannerUrl(rawUrl) {
@@ -151,8 +152,8 @@ class MalikliApp {
         // it will be resolved relative to the HTML document.
         // isValidImageUrl will do a final check.
         return rawUrl; 
-    }
-
+    }    // TEMPORARILY COMMENTED OUT - Dynamic drop content updates
+    /*
     updateDropContent() {
         if (!this.dropData) {
             console.warn("❌ No drop data available to update the content. Showing fallback.");
@@ -226,6 +227,7 @@ class MalikliApp {
             metaDesc.setAttribute('content', this.dropData.description);
         }
     }
+    */
 
     isValidImageUrl(url) {
         if (!url || typeof url !== 'string') return false;

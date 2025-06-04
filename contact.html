@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - MALIKLI1992</title>
-    <meta name="description" content="Get in touch with MALIKLI1992 for inquiries about our exclusive fashion drops, collaborations, or customer support.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title data-i18n="contact.meta.title">Contact Us - MALIKLI1992</title>
+    <meta name="description" data-i18n="contact.meta.description" content="Get in touch with MALIKLI1992 for inquiries about our exclusive fashion drops, collaborations, or customer support.">
+    
+    <!-- Component Preloader - Ensures components load correctly -->
+    <script src="js/component-preloader.js"></script>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,42 +23,26 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav__container">
-                <div class="nav__logo">
-                    <a href="index.html">
-                        <img src="images/logo.png" alt="MALIKLI1992 Logo" class="logo-image">
-                    </a>
-                </div>                <div class="nav__menu">
-                    <a href="about.html" class="nav__link">About</a>
-                    <a href="contact.html" class="nav__link active">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Contact Hero Section -->
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>    <!-- Contact Hero Section -->
     <section class="page-hero">
         <div class="page-hero__container">
-            <h1 class="page-hero__title">Contact Us</h1>
-            <p class="page-hero__subtitle">We're here to help you</p>
+            <h1 class="page-hero__title" data-i18n="contact.hero.title">Contact Us</h1>
+            <p class="page-hero__subtitle" data-i18n="contact.hero.subtitle">We're here to help you</p>
         </div>
     </section>
 
     <!-- Contact Content -->
     <section class="contact-content">
         <div class="contact-content__container">
-            <div class="contact-content__info">
-                <div class="contact-info__card">
+            <div class="contact-content__info">                <div class="contact-info__card">
                     <div class="contact-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3>Email Address</h3>
-                    <a href="mailto:e.malikli1992@gmail.com" class="contact-link">e.malikli1992@gmail.com</a>                </div>
+                    <h3 data-i18n="contact.info.email.title">Email Address</h3>
+                    <a href="mailto:e.malikli1992@gmail.com" class="contact-link" data-i18n="contact.info.email.address">e.malikli1992@gmail.com</a>                </div>
                 
                 <div class="contact-info__card">
                     <div class="contact-icon">
@@ -67,39 +53,38 @@
                             <path d="M8 14H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3>Follow Us</h3>
+                    <h3 data-i18n="contact.info.social.title">Follow Us</h3>
                     <div class="contact-social-links">
-                        <a href="https://www.instagram.com/malikli1992/" target="_blank" class="contact-social-link">Instagram</a>
-                        <a href="https://www.tiktok.com/@malikli1992" target="_blank" class="contact-social-link">TikTok</a>
+                        <a href="https://www.instagram.com/malikli1992/" target="_blank" class="contact-social-link" data-i18n="contact.info.social.instagram">Instagram</a>
+                        <a href="https://www.tiktok.com/@malikli1992" target="_blank" class="contact-social-link" data-i18n="contact.info.social.tiktok">TikTok</a>
                     </div>
                 </div>
             </div>
-            
-            <div class="contact-content__form">
+              <div class="contact-content__form">
                 <div class="form-container">
-                    <h2 class="form-title">Send Us a Message</h2>
+                    <h2 class="form-title" data-i18n="contact.form.title">Send Us a Message</h2>
                     <form class="contact-form" id="contact-form">
                         <div class="form-group">
-                            <label for="from_name">Your Name</label>
-                            <input type="text" id="from_name" name="from_name" placeholder="Enter your name" required class="form-input">
+                            <label for="from_name" data-i18n="contact.form.fields.name.label">Your Name</label>
+                            <input type="text" id="from_name" name="from_name" data-i18n-placeholder="contact.form.fields.name.placeholder" placeholder="Enter your name" required class="form-input">
                             <div class="form-error"></div>
                         </div>
                         
                         <div class="form-group">
-                            <label for="reply_to">Your Email</label>
-                            <input type="email" id="reply_to" name="reply_to" placeholder="Enter your email" required class="form-input">
+                            <label for="reply_to" data-i18n="contact.form.fields.email.label">Your Email</label>
+                            <input type="email" id="reply_to" name="reply_to" data-i18n-placeholder="contact.form.fields.email.placeholder" placeholder="Enter your email" required class="form-input">
                             <div class="form-error"></div>
                         </div>
                         
                         <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="Enter subject" required class="form-input">
+                            <label for="subject" data-i18n="contact.form.fields.subject.label">Subject</label>
+                            <input type="text" id="subject" name="subject" data-i18n-placeholder="contact.form.fields.subject.placeholder" placeholder="Enter subject" required class="form-input">
                             <div class="form-error"></div>
                         </div>
                         
                         <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Type your message here..." required class="form-textarea"></textarea>
+                            <label for="message" data-i18n="contact.form.fields.message.label">Message</label>
+                            <textarea id="message" name="message" data-i18n-placeholder="contact.form.fields.message.placeholder" placeholder="Type your message here..." required class="form-textarea"></textarea>
                             <div class="form-error"></div>
                         </div>
                         
@@ -107,107 +92,47 @@
                             <label class="checkbox-label">
                                 <input type="checkbox" id="privacy" name="privacy" required class="checkbox">
                                 <span class="checkbox-custom"></span>
-                                I agree to the <a href="privacy.html" class="link">Privacy Policy</a> and consent to having my data processed.
+                                <span data-i18n="contact.form.fields.privacy">I agree to the <a href="privacy.html" class="link">Privacy Policy</a> and consent to having my data processed.</span>
                             </label>
                             <div class="form-error"></div>
                         </div>
                         
                         <button type="submit" class="btn btn--primary btn--full-width" id="submit-btn">
-                            <span class="btn__text">Send Message</span>
+                            <span class="btn__text" data-i18n="contact.form.submit">Send Message</span>
                             <span class="btn__loading" style="display: none;">
                                 <svg class="spinner" viewBox="0 0 50 50">
                                     <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
                                 </svg>
                             </span>
                         </button>
-                    </form>
-                    
+                    </form>                    
                     <div class="contact-form__success" id="success-message" style="display: none;">
                         <div class="success-content">
-                            <div class="success-icon">✉️</div>
-                            <h3>Thank You!</h3>
-                            <p>Your message has been sent. We'll get back to you as soon as possible.</p>
-                            <button class="btn btn--secondary" id="send-another-btn">Send Another Message</button>
+                            <div class="success-icon" data-i18n="contact.success.icon">✉️</div>
+                            <h3 data-i18n="contact.success.title">Thank You!</h3>
+                            <p data-i18n="contact.success.message">Your message has been sent. We'll get back to you as soon as possible.</p>
+                            <button class="btn btn--secondary" id="send-another-btn" data-i18n="contact.success.sendAnother">Send Another Message</button>
                         </div>
                     </div>
                     
                     <div class="contact-form__error" id="error-message" style="display: none;">
                         <div class="error-content">
-                            <div class="error-icon">❌</div>
-                            <h3>Oops!</h3>
-                            <p>Something went wrong while sending your message. Please try again later.</p>
-                            <button class="btn btn--secondary" id="try-again-btn">Try Again</button>
+                            <div class="error-icon" data-i18n="contact.error.icon">❌</div>
+                            <h3 data-i18n="contact.error.title">Oops!</h3>
+                            <p data-i18n="contact.error.message">Something went wrong while sending your message. Please try again later.</p>
+                            <button class="btn btn--secondary" id="try-again-btn" data-i18n="contact.error.tryAgain">Try Again</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <h3>MALIKLI1992</h3>
-                    <p>Exclusive fashion for the discerning individual.</p>                    <div class="footer__contact">
-                        <p><a href="mailto:e.malikli1992@gmail.com">e.malikli1992@gmail.com</a></p>
-                    </div>
-                </div>
-                
-                <div class="footer__nav">
-                    <div class="footer__column">
-                        <h4>Customer Support</h4>
-                        <ul class="footer__links">
-                            <li><a href="shipping.html">Shipping Information</a></li>
-                            <li><a href="returns.html">Returns & Exchanges</a></li>
-                            <li><a href="payment.html">Payment Methods</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__column">
-                        <h4>Company</h4>
-                        <ul class="footer__links">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__column">
-                        <h4>Follow Us</h4>
-                        <div class="social-links">
-                            <a href="https://www.instagram.com/malikli1992/" target="_blank" class="social-link" aria-label="Instagram">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z" stroke="currentColor" stroke-width="2"/>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
-                                </svg>
-                            </a>
-                            <a href="https://www.tiktok.com/@malikli1992" target="_blank" class="social-link" aria-label="TikTok">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9 12A4 4 0 1 0 13 16V6.5C14.5 7.5 16.5 8 19 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer__bottom">
-                <div class="footer__info">
-                    <p>&copy; 2025 MALIKLI1992 LLC. All rights reserved.</p>
-                    <p>Limited Liability Company "MALIKLI1992"</p>
-                    <p>Manufacturer: MALIKLI1992 LLC</p>
-                    
-                </div>
-                <div class="footer__payment">
-                    <img src="images/visa-logo.png" alt="Visa" class="payment-icon">
-                    <img src="images/mastercard-logo.png" alt="Mastercard" class="payment-icon">
-                    
-                </div>
-            </div>
-        </div>
-    </footer>    <!-- Scripts -->
+    </section>    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="js/i18n-config.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/components.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/emailjs-handler.js"></script>
     <script>    document.addEventListener('DOMContentLoaded', function() {
